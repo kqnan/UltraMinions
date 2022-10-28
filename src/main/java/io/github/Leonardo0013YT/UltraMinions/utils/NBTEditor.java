@@ -82,7 +82,8 @@ public final class NBTEditor {
             key+=k+"_";
         }
         NBTItem nbtItem=new NBTItem((ItemStack) object);
-        return nbtItem.getInteger(key);
+
+        return Integer.parseInt(nbtItem.getString(key));
     }
 
     public static long getLong(Object object, Object... keys) {
@@ -91,7 +92,7 @@ public final class NBTEditor {
             key+=k+"_";
         }
         NBTItem nbtItem=new NBTItem((ItemStack) object);
-        return nbtItem.getLong(key);
+        return Long.parseLong(nbtItem.getString(key));
     }
 
 

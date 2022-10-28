@@ -335,6 +335,7 @@ public class PlayerListener implements Listener {
             if (!cMain) {
                 cOff = checkItemHand(p, off, e);
             }
+
             if (!cMain && !cOff) {
                 return;
             }
@@ -347,6 +348,7 @@ public class PlayerListener implements Listener {
             e.setCancelled(true);
             Block b = e.getClickedBlock();
             PlayerData pd = PlayerData.getPlayerData(p);
+            System.out.println(pd);
             if (pd == null) {
                 return;
             }
@@ -370,39 +372,39 @@ public class PlayerListener implements Listener {
             if (plugin.getCfm().isPreciousstones()) {
                 if (!plugin.getAdm().getPca().checkRegion(p, b.getLocation())) {
                     p.sendMessage(plugin.getLang().get("messages.noPreciusStone"));
-                    return;
+                    System.out.println("7------------------------------------");  return;
                 }
             }
             if (plugin.getCfm().isProtectionstones()) {
                 if (!plugin.getAdm().getPrsa().checkRegion(p, b.getLocation())) {
                     p.sendMessage(plugin.getLang().get("messages.noProtectionStone"));
-                    return;
+                    System.out.println("6------------------------------------"); return;
                 }
             }
             if (plugin.getCfm().isTowny()) {
                 if (!plugin.getAdm().getTowny().isInYourTown(p)) {
                     p.sendMessage(plugin.getLang().get("messages.noYourTown"));
-                    return;
+                    System.out.println("5------------------------------------");  return;
                 }
             }
             if (plugin.getCfm().isPlotsquared()) {
                 if (!plugin.getAdm().isAllowedPlot(p, b.getLocation())) {
                     p.sendMessage(plugin.getLang().get("messages.onlyInPlot"));
-                    return;
+                    System.out.println("4------------------------------------"); return;
                 }
             }
             String key = NBTEditor.getString(item, "KEY");
             if (plugin.getCfm().isPermissionToPlace()) {
                 if (!plugin.getAdm().hasPermission(p, "ultraminions.place." + key)) {
                     p.sendMessage(plugin.getLang().get("messages.noPermissionToPlace"));
-                    return;
+                    System.out.println("3------------------------------------");  return;
                 }
             }
             int max = plugin.getAdm().getMaxPerType(p, key);
             if (max != 0) {
                 if (pd.getTypes().getOrDefault(key, 0) >= max) {
                     p.sendMessage(plugin.getLang().get("messages.noMoreThisType"));
-                    return;
+                    System.out.println("2------------------------------------");return;
                 }
             }
             pd.getTypes().put(key, pd.getTypes().getOrDefault(key, 0) + 1);
@@ -413,6 +415,7 @@ public class PlayerListener implements Listener {
             int workTime = NBTEditor.getInt(item, "WORKTIME");
             int sleep = NBTEditor.getInt(item, "SLEEP");
             long fueltime = NBTEditor.getLong(item, "FUELTIME");
+            System.out.println("1------------------------------------");
             PlayerMinion pm = new PlayerMinion(b.getLocation().clone().add(0.5, 1, 0.5), key, p);
             PlayerMinionUpgrade upgrade = new PlayerMinionUpgrade(pm);
             String autosell = NBTEditor.getString(item, "AUTOSELL");
@@ -433,6 +436,7 @@ public class PlayerListener implements Listener {
                         if (level == 1) {
                             Tier nt = plugin.getTm().getNextTier(next);
                             p.sendMessage(plugin.getLang().get("messages.newMinion").replaceAll("<title>", pm.getMinionLevel().getLevelTitle()).replaceAll("<tier>", String.valueOf(nt.getRequired() - pd.getUnlocked())));
+
                             return;
                         }
                         if (!now.equals(next)) {
@@ -459,7 +463,8 @@ public class PlayerListener implements Listener {
                 p.sendMessage(plugin.getLang().get("messages.noPutSkin"));
                 return false;
             }
-            return NBTEditor.getString(item, "KEY") != null;
+
+            return NBTEditor.getString(item, "KEY") != null && !Objects.equals(NBTEditor.getString(item, "KEY"), "");
         }
         return false;
     }
