@@ -1,0 +1,7 @@
+nbteditor需要重写的方法
+getString
+set
+getHead
+getInt
+getLong
+contains

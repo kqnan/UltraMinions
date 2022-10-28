@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="UltraMinions_1_17+:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/UltraMinions_1_17__jar</output-path>
+    <output-path>D:/服务端大全/星云空岛/1.19.2hpy空岛v1.0.6/plugins</output-path>
     <root id="archive" name="UltraMinions_1_17+.jar">
       <element id="module-output" name="UltraMinions_1_17+" />
     </root>
