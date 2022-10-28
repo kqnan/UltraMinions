@@ -1,0 +1,275 @@
+upgrades:
+  autoSell:
+    default:
+      name: default
+      sell: 25.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        type: HOPPER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §6Auto Sell
+          lore:
+            - §7This is a default
+            - §7lore to AutoSell.
+            - §7
+            - '§bPercent: §a25.0%'
+            - §7
+            - §ePut in minion!
+          blockMaterial: HOPPER
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_INGOT
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            damage: -1
+            amount: 0
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_INGOT
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_INGOT
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: GOLD_INGOT
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_INGOT
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            damage: -1
+            amount: 0
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_INGOT
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            damage: -1
+            amount: 0
+  compressor:
+    default:
+      name: default
+      amount: 9
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        type: DISPENSER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §6Compressor
+          lore:
+            - §7This is a default
+            - §7lore to Compressor.
+            - §7
+            - §ePut in minion!
+          blockMaterial: DISPENSER
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: PISTON_STICKY_BASE
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: REDSTONE
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: PISTON_STICKY_BASE
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+  autoSmelt:
+    default:
+      name: default
+      percent: 100.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        type: FURNACE
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §6AutoSmelt
+          lore:
+            - §7This is a default
+            - §7lore to AutoSmelt.
+            - §7
+            - §ePut in minion!
+          blockMaterial: FURNACE
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: FIREBALL
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: FURNACE
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGGS
+            damage: 1
+  fuel:
+    default:
+      name: default
+      duration: 600
+      percent: 15.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aMini Fuel
+          lore:
+            - §7This is a default
+            - §7lore to Fuel.
+            - §7
+            - '§bDuration: §a5m'
+            - '§bReduction: §a15%'
+            - §7
+            - '§bRestant Time: §a<time>'
+            - §7
+            - <status>
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            damage: -1
+            amount: 0
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            damage: -1
+            amount: 0
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            damage: -1
+            amount: 0
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+    unlimited:
+      name: unlimited
+      duration: -1
+      percent: 15.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aUnlimited Fuel
+          lore:
+            - §7This is a default
+            - §7lore to Fuel.
+            - §7
+            - '§bDuration: §aUnlimited'
+            - '§bReduction: §a15%'
+            - §7
+            - <status>
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: DIAMOND
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: DIAMOND
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: DIAMOND
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: WHEAT

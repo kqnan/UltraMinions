@@ -1,0 +1,83 @@
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: Leonardo
+  username: Spigot
+  password: Plugin
+debugMode: false
+shopEnabled: true
+hologramsSystem: true
+socialHolograms: true
+adminBypass: false
+optimizeOnUnloadChunk: true
+secureStop: true
+rangeCheck:
+  x: 2.0
+  y: 2.0
+  z: 2.0
+autoSpawnMinion:
+  enabled: false
+  minionType: cobblestone
+  minionLevel: 1
+  coordinates:
+    x: 15
+    y: 0
+    z: 15
+unlockingTiers: false
+offlineWorking: true
+nbtTagsCrafting: false
+autoSave:
+  enabled: true
+  minutes: 5
+stats:
+  food: true
+  health: true
+  chestLink: true
+  stopOnlyFoodLow: true
+  maxMinionInData: false
+addons:
+  UltimateClaims: false
+  PlaceholderAPI: true
+  MVdWPlaceholderAPI: false
+  trHologram: false
+  goliatapi: false
+  fabledskyblock: false
+  superiorskyblock: false
+  acidisland: false
+  askyblock: false
+  bentobox: false
+  iridiumskyblock: false
+  vault: true
+  playerpoints: false
+  luckperms: false
+  plotsquared: false
+  plotsquaredv5: false
+  holograms: false
+  holographicdisplays: true
+  protectionstones: false
+  preciousstones: false
+  redprotect: false
+  griefprevention: false
+  worldguard: false
+  essentials: false
+  shopguiplus: false
+  cmi: false
+  cmiholograms: false
+  residence: false
+  lands: false
+  massivefaction: false
+  factionsUUID: false
+settings:
+  permissionToPlace: false
+  defaultMaxMinion: 3
+  levelPermission: false
+  destroyToRemove: true
+  memberIsland:
+    openInventory: true
+    removeMinion: false
+slots:
+  upgrade:
+    1m1m1m: 11;13;15
+    1m1m: 11;15
+    1m: 13

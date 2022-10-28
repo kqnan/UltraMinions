@@ -1,0 +1,13 @@
+tiers:
+  0:
+    typesOrLevelsRequired: 0
+    max: 3
+    newTier: "&aYou've unlocked a new tier your maximum minions now is &b(&e<now>&7/&e<max>&b)&a."
+  1:
+    typesOrLevelsRequired: 4
+    max: 6
+    newTier: "&aYou've unlocked a new tier your maximum minions now is &b(&e<now>&7/&e<max>&b)&a."
+  2:
+    typesOrLevelsRequired: 8
+    max: 9
+    newTier: "&aYou've unlocked a new tier your maximum minions now is &b(&e<now>&7/&e<max>&b)&a."

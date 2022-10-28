@@ -1,0 +1,288 @@
+minions:
+  collector:
+    key: collector
+    type: COLLECTOR
+    title: '&eCollector'
+    lore:
+      - '&7This is a default lore'
+      - '&7of Minion.'
+      - '&7'
+      - '&eRight click to place'
+    url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc0ZTI0MjQyNTc1MWM2OGYyNTkzNjM5NjE5YWUxZGE5N2JiYjc1MjgwYzQxZGYyYjVlOGQ5ZjhjZjY4Y2U2MyJ9fX0=
+    place:
+      ==: org.bukkit.inventory.ItemStack
+      v: 1631
+      type: IRON_ORE
+    red: 135
+    blue: 135
+    green: 135
+    spawn: ZOMBIE
+    compressor:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: IRON_BLOCK
+    smelt:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: CHEST
+    giveInInv:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: IRON_ORE
+    priceNormalSell: 2.0
+    priceSmeltedSell: 4.0
+    priceCompressedSell: 2.0
+    compressorEnabled: true
+    smeltEnabled: true
+    autoSellEnabled: true
+    fuelEnabled: true
+    damage: 5
+    levels:
+      '0':
+        level: 1
+        levelTitle: '&eCollector I'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 500
+        upgradeLevels: 10
+        max: 64
+        delay: 45
+        isCraft: true
+        isLevel: false
+        isCoins: false
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc0ZTI0MjQyNTc1MWM2OGYyNTkzNjM5NjE5YWUxZGE5N2JiYjc1MjgwYzQxZGYyYjVlOGQ5ZjhjZjY4Y2U2MyJ9fX0=
+      '1':
+        level: 2
+        levelTitle: '&eCollector II'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 500
+        upgradeLevels: 10
+        max: 64
+        delay: 42
+        isCraft: true
+        isLevel: false
+        isCoins: false
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 16
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc0ZTI0MjQyNTc1MWM2OGYyNTkzNjM5NjE5YWUxZGE5N2JiYjc1MjgwYzQxZGYyYjVlOGQ5ZjhjZjY4Y2U2MyJ9fX0=
+      '2':
+        level: 3
+        levelTitle: '&eCollector III'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 500
+        upgradeLevels: 10
+        max: 128
+        delay: 42
+        isCraft: true
+        isLevel: false
+        isCoins: false
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 32
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc0ZTI0MjQyNTc1MWM2OGYyNTkzNjM5NjE5YWUxZGE5N2JiYjc1MjgwYzQxZGYyYjVlOGQ5ZjhjZjY4Y2U2MyJ9fX0=
+      '3':
+        level: 4
+        levelTitle: '&eCollector IV'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 500
+        upgradeLevels: 10
+        max: 128
+        delay: 38
+        isCraft: true
+        isLevel: false
+        isCoins: false
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: CHEST
+              amount: 64
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc0ZTI0MjQyNTc1MWM2OGYyNTkzNjM5NjE5YWUxZGE5N2JiYjc1MjgwYzQxZGYyYjVlOGQ5ZjhjZjY4Y2U2MyJ9fX0=
+    animation: picar.animc
+    handItem: CHEST

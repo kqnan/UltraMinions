@@ -1,0 +1,431 @@
+minions:
+  gold:
+    key: gold
+    type: MINER
+    title: '&6Gold Minion'
+    lore:
+      - '&7This is a Gold Minion'
+      - '&7'
+      - '&eRight click to place'
+    url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTczMDkyY2FlYTg5ZGQxMmQzNjgzNzVmMWEwOTc3OTZlM2JjODhmODA5YWNjZjMyMDcwNmJkYzA0OGNkNGM1ZSJ9fX0=
+    place:
+      ==: org.bukkit.inventory.ItemStack
+      v: 1631
+      type: GOLD_ORE
+    red: 135
+    blue: 135
+    green: 135
+    spawn: ZOMBIE
+    compressor:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: GOLD_BLOCK
+    smelt:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: GOLD_INGOT
+    giveInInv:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: GOLD_INGOT
+    priceNormalSell: 2.0
+    priceSmeltedSell: 4.0
+    priceCompressedSell: 2.0
+    compressorEnabled: true
+    smeltEnabled: true
+    autoSellEnabled: true
+    fuelEnabled: true
+    damage: 5
+    levels:
+      '0':
+        level: 1
+        levelTitle: '&6Gold Minion I'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 100000
+        upgradeLevels: 10
+        max: 64
+        delay: 127
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA4YzdkNDdiZmI4MmQ0ZWE3Njk0MWVkODAxODk0ZTNmZTk3NDA0ZTUxMTEwZjVmOWY3YjgzZTZlMTdlNDllNiJ9fX0=
+      '1':
+        level: 2
+        levelTitle: '&6Gold Minion II'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 138000
+        upgradeLevels: 10
+        max: 128
+        delay: 119
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: STONE_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM3MTM1NzE1OTY5MzA1NDAyZDEyYjU1ODc5MDA1MDM1YjNlZTIxZTI1NDk4NTQ5MzY2Y2NmZjZhMDI2NDIyMyJ9fX0=
+      '2':
+        level: 3
+        levelTitle: '&6Gold Minion III'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 200000
+        upgradeLevels: 10
+        max: 192
+        delay: 111
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: IRON_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiODVkMjk5OTNkMWIzNWVlNDA0YmRjNWQxNmM1YTA0YTc2ODg1ZmQ5NWZkMzM3ZjIwMTQzYzM5YjU3NWE3OSJ9fX0=
+      '3':
+        level: 4
+        levelTitle: '&6Gold Minion IV'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 238000
+        upgradeLevels: 10
+        max: 256
+        delay: 103
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJjNWMyMTU2NjE1ZjEzYzRjOTI3YzBjMzQ1NTI4ZTVjY2JjZGUyNmEzMzJkMjkzNzQ5MDk0N2FhMDczNDYwMSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '4':
+        level: 5
+        levelTitle: '&6Gold Minion V'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 300000
+        upgradeLevels: 10
+        max: 320
+        delay: 95
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '5':
+        level: 6
+        levelTitle: '&6Gold Minion VI'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 338000
+        upgradeLevels: 10
+        max: 384
+        delay: 87
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '6':
+        level: 7
+        levelTitle: '&6Gold Minion VII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 400000
+        upgradeLevels: 10
+        max: 448
+        delay: 79
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '7':
+        level: 8
+        levelTitle: '&6Gold Minion VIII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 438000
+        upgradeLevels: 10
+        max: 512
+        delay: 71
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '8':
+        level: 9
+        levelTitle: '&6Gold Minion IX'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 500000
+        upgradeLevels: 10
+        max: 576
+        delay: 63
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '9':
+        level: 10
+        levelTitle: '&6Gold Minion X'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 538000
+        upgradeLevels: 10
+        max: 640
+        delay: 55
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '10':
+        level: 11
+        levelTitle: '&6Gold Minion XI'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 600000
+        upgradeLevels: 10
+        max: 704
+        delay: 47
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '11':
+        level: 12
+        levelTitle: '&6Gold Minion XII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 638000
+        upgradeLevels: 10
+        max: 768
+        delay: 39
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '12':
+        level: 13
+        levelTitle: '&6Gold Minion XII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 700000
+        upgradeLevels: 10
+        max: 832
+        delay: 31
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '13':
+        level: 14
+        levelTitle: '&6Gold Minion XIV'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 738000
+        upgradeLevels: 10
+        max: 896
+        delay: 23
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+      '14':
+        level: 15
+        levelTitle: '&6Gold Minion XV'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 1000000
+        upgradeLevels: 10
+        max: 960
+        delay: 15
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0=
+          items:
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: DIAMOND_PICKAXE
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5NzhmOWQ4NWI5YTYyNDJlMTg0MWU0NDRhYTVjNDczNDE4MTU1OTU4ZmNlMmU3YjA1NWY4OTM4YTdkNTYxNSJ9fX0=
+        animation: picar.animc
+        handItem: DIAMOND_PICKAXE
+    animation: picar.animc
+    handItem: WOODEN_PICKAXE

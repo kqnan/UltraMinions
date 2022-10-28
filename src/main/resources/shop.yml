@@ -1,0 +1,250 @@
+hasMoney: '§7Click to buy!'
+noMoney: '§cYou dont have money!'
+shop:
+  fisher:
+    key: fisher_minion
+    price: 35000
+    page: 1
+    slot: 10
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  skeleton:
+    key: skeleton_minion
+    price: 50000
+    page: 1
+    slot: 11
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  cow:
+    key: cow
+    price: 55000
+    page: 1
+    slot: 12
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  iron:
+    key: iron_ore
+    price: 30000
+    page: 1
+    slot: 13
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  sugar:
+    key: sugarcane
+    price: 40000
+    page: 1
+    slot: 14
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  gold:
+    key: gold
+    price: 32000
+    page: 1
+    slot: 15
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  pig:
+    key: pig_minion
+    price: 40000
+    page: 1
+    slot: 16
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  diamond:
+    key: diamond
+    price: 100000
+    page: 1
+    slot: 19
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  cobble:
+    key: cobblestone
+    price: 20000
+    page: 1
+    slot: 20
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  cactus:
+    key: cactus
+    price: 19000
+    page: 1
+    slot: 21
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  netherwart:
+    key: nether_wart
+    price: 20000
+    page: 1
+    slot: 22
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  zom:
+    key: zombie
+    price: 75000
+    page: 1
+    slot: 23
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  coal:
+    key: coal
+    price: 31000
+    page: 1
+    slot: 24
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  wheat:
+    key: wheat_minion
+    price: 120000
+    page: 1
+    slot: 25
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  lapis:
+    key: lapis
+    price: 85000
+    page: 1
+    slot: 28
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  emerald:
+    key: emerald
+    price: 78000
+    page: 1
+    slot: 29
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  redstone:
+    key: redstone
+    price: 67000
+    page: 1
+    slot: 30
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  sheep:
+    key: sheep
+    price: 66000
+    page: 1
+    slot: 31
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>
+  enderman:
+    key: enderman
+    price: 200000
+    page: 1
+    slot: 32
+    name: '§aMinion: <title>'
+    lore:
+      - '§7By clicking you will buy'
+      - '§7Minion <title>'
+      - '§7'
+      - '§ePrice: §b<price>'
+      - '§7'
+      - <status>

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="[C][前置]CMILib1.0.4.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/[C][前置]CMILib1.0.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/[P][地皮]PlotSquared6.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/[V][前置][经济]Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/[货币-电卷]PlayerPoints-3.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/authlib-3.5.41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/CMI9.0.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-30.1-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/LuckPerms-Bukkit-5.4.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/PlaceholderAPI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spigot-api-1.19.2-R0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Towny-0.97.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

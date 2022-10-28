@@ -1,0 +1,1374 @@
+enabled: "&aEnabled"
+disabled: "&cDisabled"
+FARMER: "Farmer"
+FISHER: "Fisher"
+LUMBERJACK: "Lumberjack"
+MINER: "Miner"
+RANCHER: "Rancher"
+HUNTER: "Hunter"
+PEASANT: "Peasant"
+CACTUSCANE: "Cactus Cane"
+COLLECTOR: "Collector"
+SELLER: "Seller"
+locked: "&cLocked"
+unlocked: "&aUnlocked"
+items:
+  minionSkin:
+    nameItem: "&eMinion Skin"
+    loreItem: |-
+      &7Add this skin to your minion.
+messages:
+  noMoreThisType: "&cYou can't put any more minions like this."
+  inStopLogin: "&cThe server is rebooting or stopping."
+  noInteractAdmin: "&cAs an administrator you can only see, you can't do anything with the minion."
+  noMore64Fuel: "&cYou can't put more than 64 in the Fuel upgrade."
+  noFuelEquals: "&cFuel upgrades are not the same."
+  noPerfect: "&cThe minion's place is no longer perfect."
+  noPlaceUpgrades: "&cYou can't put improvements on the ground."
+  inCursor: "&cYou have an item on your cursor, remove it because it will be removed."
+  adminRemoved: "&cAn Administrator has removed your minion."
+  otherMinion: "&cThere's another minion in your place, you're handed over in the inventory."
+  forceSaving: "&cForced data saving of minions."
+  anyStat: "&cYou don't have any statistics turned on."
+  purchased: "&aYou have purchased the <title>&a minion for &e<coins>&a coins."
+  noMoney: "&cYou don't have enough money to buy this."
+  fullInventory: "&cYou don't have space in your inventory, objects have fallen to the ground."
+  newMinion: "&aHave put in a new minion <title>, minions needed for the next &eTier <tier>&a."
+  noPutThis: "&cYou can't put minions because this place isn't yours."
+  health: "&aYou've cure your minion, now you have &e<amount>"
+  feed: "&aYou've fed your minion, now you have &e<amount>"
+  isProtect: "&cYou can't put the minion in a protected area."
+  noPreciusStone: "&cYou can only put a minion in your protected region."
+  noProtectionStone: "&cYou can only put a minion in your protected region."
+  noPermissionToPlace: "&cYou don't have permissions to put this minion."
+  linked: "&aThis chest has been linked to the minion."
+  unlinked: "&aThis chest has been unconnected."
+  alreadyLink: "&cYou already have a chest linked, first unlink it."
+  link: "&aRight-click the chest to link it."
+  noLink: "&cYou don't have any chests linked to you."
+  linkBroken: "&cThere's a chest linked but it's broken, now you can link a new one."
+  alreadyMinion: "&cYou can't put a minion in here because there's another one."
+  noPutSkin: "&cYou can't put the minion skins on the floor."
+  noYourTown: "&cYou're not in your Town."
+  maxMinion: "&cYou've reached the maximum of minions."
+  noExistLevel: "&cThat level does not exist or may have been eliminated."
+  parsedMinion: "&e<amount> &aminion configs have been successfully passed."
+  parsedData: "&e<amount> &aplayer datas have been successfully passed."
+  onlyInPlot: "&cYou can only put the minion on a plot."
+  noMaterials: "&cThere are no materials to collect."
+  collect: "&aYou have collected all the materials."
+  noCollect: "&cUse the item to collect in the minion."
+  noConsole: "&cThat command can only be executed by users."
+  noPermission: "&cYou don't have permission for this."
+  noOnline: "&cThat player's not online."
+  noNumber: "&cThe value entered is not numeric."
+  noMinion: "&cThere's no minion with this key."
+  noFuel: "&cThere's no fuel with this key."
+  noAutoSell: "&cThere's no autosell this key."
+  noAutoSmelt: "&cThere's no autosmelt with this key."
+  noCompressor: "&cThere's no compressor with this key."
+  noSkin: "&cThere's no skin with this key."
+  giveMinion: "&aYou've been given the &b<key>&a minion &ex<amount>&a."
+  giveFuel: "&aYou've been given the &b<key>&a fuel &ex<amount>&a."
+  giveAutoSell: "&aYou've been given the &b<key>&a autosell &ex<amount>&a."
+  giveAutoSmelt: "&aYou've been given the &b<key>&a autosmelt &ex<amount>&a."
+  giveCompressor: "&aYou've been given the &b<key>&a compressor &ex<amount>&a."
+  giveSkin: "&aYou've been given the &b<key>&a skin &ex<amount>&a."
+  placeMinion: "&aYou have put on <minion>&a you can only put &e(&b<min>&e/&b<max>&e)&a."
+  removedMinion: "&cYou've removed the minion, now you have &e(&b<min>&e/&b<max>&e)&c."
+  noYourMinion: "&cThis minion doesn't belong to you."
+  noDestroy: "&cYou can't destroy the minion, use PickUp in the menu."
+  noDestroyYour: "&cYou can't destroy a minion that's not yours."
+  maxLevel: "&cYou can't get any better because you're at the most."
+  noCursor: "&cYou need to have the upgrade item at the cursor."
+  noUpgradeFuel: "&cThis is not a Fuel improvement."
+  noUpgradeAutoSell: "&cThis is not a AutoSell improvement."
+  noUpgradeCompressor: "&cThis is not a Compressor improvement."
+  noUpgradeAutoSmelt: "&cThis is not a AutoSmelt improvement."
+  removedFuel: "&aYou removed the Fuel from the inventory."
+  reload: "&aThe plugin has been reloaded correctly."
+  produced: "&aYour <title> &ahas produced &6<coins> &acoins."
+  noCraft: "&cYou need to have the item at the cursor to improve.."
+  noCoins: "&cYou don't have enough coins to improve your minion."
+  noLevels: "&cYou don't have enough levels to improve your minion."
+  upgradeLevels: "&aYou've upgraded your <title> &awith &b<level> &alevels."
+  upgradeCoins: "&aYou've upgraded your <title> &awith &b<coins> &acoins."
+  upgradeCraft: "&aYou've upgraded your <title> &awith Craft."
+  noEconomyPlugin: "&cYou don't have any economics plugins or haven't activated it."
+  noHasMaterials: "&cYou don't have the necessary materials."
+setup:
+  setFoodItem: "&aThe item that represents this food has been set."
+  setCompressorItem: "&aThe item that represents this compressor has been set."
+  setFuelItem: "&aThe item that represents this fuel has been set."
+  setAutoSmeltItem: "&aThe item that represents this auto smelt has been set."
+  setAutoSellItem: "&aThe item that represents this auto sell has been set."
+  changeURL: "&aA URL has been set in the settings as the head of the minion, remember to change it to the one you want."
+  noCraft: "&cThere is no possible result, if you do not set a result you will be able to a head URL as a result of crafting, &edouble-click to accept &cthis."
+  writeNumber: "&cPlease write a number."
+  onlyAccept: "&cThis type of minion only allows you to work with <works>."
+  setupFood:
+    amount: "&aWrite the amount in the chat."
+    setAmount: "&aYou have set the amount."
+    save: "&aThis item has been saved."
+  fuel:
+    create: "&aYou've created a new fuel with the name &e<name>&a."
+    percent: "&aWrite the reduce percentage in the chat."
+    setPercent: "&aYou have set the reduce percentage."
+    duration: "&aWrite the duration time in the chat."
+    setDuration: "&aYou have set the duration time."
+    setResult: "&cYou need to set a result, in crafting &e(If you don't want crafting just turn it off, but set the result)&c."
+  compressor:
+    create: "&aYou've created a new compressor with the name &e<name>&a."
+    amount: "&aWrite the amount of items in the chat."
+    setAmount: "&aYou have set the amount of items."
+    setResult: "&cYou need to set a result, in crafting &e(If you don't want crafting just turn it off, but set the result)&c."
+  autosmelt:
+    create: "&aYou've created a new auto smelt with the name &e<name>&a."
+    percent: "&aWrite the get percentage in the chat."
+    setPercent: "&aYou have set the get percentage."
+    setResult: "&cYou need to set a result, in crafting &e(If you don't want crafting just turn it off, but set the result)&c."
+  autosell:
+    create: "&aYou've created a new auto sell with the name &e<name>&a."
+    percent: "&aWrite the sales percentage in the chat."
+    setPercent: "&aYou have set the sales percentage."
+    setResult: "&cYou need to set a result, in crafting &e(If you don't want crafting just turn it off, but set the result)&c."
+  thisNotWork: "&cThis isn't a minion job."
+  thisNotType: "&cThis isn't a entity type."
+  onCursor: "&cYou must have the item at the cursor to replace it."
+  onHand: "&cYou must have the item in your hand to replace it."
+  setPlace: "&aYou set the item that the minion will produce."
+  setEntity: "&aThe entity type of spawn has been set."
+  setType: "&aThe type of minion has been set."
+  setGreen: "&aThe amount of green has been set."
+  setBlue: "&aThe amount of blue has been set."
+  setRed: "&aThe amount of red has been set."
+  entity: "&aWrite the entity in the chat."
+  type: "&aWrite the type of minion in the chat."
+  red: "&aWrite the amount of red in the chat."
+  blue: "&aWrite the amount of blue in the chat."
+  green: "&aWrite the amount of green in the chat."
+  removeLast: "&cThe last line of the lore has been removed."
+  noLine: "&cThere's no line in the lore."
+  lore: "&aWrite the new line in the chat."
+  setFuelCraft: "&eThe crafting of this fuel is now <state>&e."
+  setCompressorCraft: "&eThe crafting of this compressor is now <state>&e."
+  setAutoSmeltCraft: "&eThe crafting of this auto smelt is now <state>&e."
+  setAutoSellCraft: "&eThe crafting of this auto sell is now <state>&e."
+  oneLevel: "&cYou must add at least one level."
+  title: "&aWrite the minion title in the chat."
+  workTime: "&aWrite the minion work time in the chat."
+  sleep: "&aWrite the minion sleep time in the chat."
+  health: "&aWrite the minion max health in the chat."
+  food: "&aWrite the minion max food in the chat."
+  key: "&aWrite the minion key in the chat."
+  setKey: "&aThe key of minion has been set."
+  setTitle: "&aThe title of minion has been set."
+  setWorkTime: "&aThe working time has been set."
+  setSleep: "&aThe sleeping time has been set."
+  setHealth: "&aThe maximum of life has been set."
+  setFood: "&aThe maximum of food has been set."
+  noResult: "&cYou have to set a result."
+  setPermission: "&aThe minion craft permission has been established."
+  addLore: "&aI add the written line to the lore."
+  permission: "&aWrite the minion craft permission in the chat."
+  craftNotEnabled: "&cCrafting upgrade is not enabled."
+  setIsLevel: "&eThe improvement by level is now <state>&e."
+  setIsCoins: "&eThe improvement by coins is now <state>&e."
+  setIsCraft: "&eThe improvement by crafting is now <state>&e."
+  setCoins: "&aThe minion upgrade coins has been established."
+  setLevel: "&aThe minion upgrade level has been established."
+  setMax: "&aThe minion max storage has been established."
+  setDelay: "&aThe minion delay has been established."
+  coins: "&aWrite the minion upgrade coins in the chat."
+  level: "&aWrite the minion upgrade levels in the chat."
+  max: "&aWrite the minion max storage in the chat."
+  delay: "&aWrite the minion delay in the chat."
+  setCompressorPrice: "&aThe compressor price has been set."
+  setSmeltPrice: "&aThe smelt price has been set."
+  setNormalPrice: "&aThe normal price has been set."
+  priceSmelt: "&aPlease enter the smelted price in the chat."
+  priceCompressor: "&aPlease enter the compressed price in the chat."
+  priceNormal: "&aPlease enter the normal price in the chat."
+  smeltSave: "&aItems that are smelt in inventory have been saved."
+  compressorSave: "&aItems that are compressor in inventory have been saved."
+  giveInInvSave: "&aItems that are given in inventory have been saved."
+  compressorUpgrade: "&eThe use of the &bCompressor&e upgrade for this minion is now <state>&e."
+  autoSellUpgrade: "&eThe use of the &bAuto Sell&e upgrade for this minion is now <state>&e."
+  smeltUpgrade: "&eThe use of the &bAuto Smelt&e upgrade for this minion is now <state>&e."
+  fuelUpgrade: "&eThe use of the &bFuel&e upgrade for this minion is now <state>&e."
+  saveAutoSell: "&aThe auto sell has been saved."
+  saveAutoSmelt: "&aThe auto smelt has been saved."
+  saveCompressor: "&aThe compressor has been saved."
+  saveFuel: "&aThe fuel has been saved."
+  saveLevel: "&aThe level has been saved."
+  save: "&aThe minion has been saved."
+holograms:
+  ## Social is not multi line...
+  ## Every line is a new message
+  social:
+    miner: |-
+      &eHello again pattern :D
+      &eWhat do you need from me?
+      &eCan I be your friend?
+      &eToday I am very happy.
+    farmer: |-
+      &eAll right, Master? :O
+      &eAre you hungry?
+      &eI can make you something.
+      &eI am very worried about this day.
+    lumberjack: |-
+      &eWhat a step brotter that waves.
+      &eYou have got me here and you do not give me anything.
+      &eYou are lucky to have me.
+      &eAnother day here.
+    hunter: |-
+      &eWhat a step brotter that waves.
+      &eYou have got me here and you do not give me anything.
+      &eYou are lucky to have me.
+      &eAnother day here.
+    rancher: |-
+      &eWhat a step brotter that waves.
+      &eYou have got me here and you do not give me anything.
+      &eYou are lucky to have me.
+      &eAnother day here.
+    peasant: |-
+      &eWhat a step brotter that waves.
+      &eYou have got me here and you do not give me anything.
+      &eYou are lucky to have me.
+      &eAnother day here.
+    fisher: |-
+      &eHello again pattern :D
+      &eWhat do you need from me?
+      &eCan I be your friend?
+      &eToday I am very happy.
+    cactuscane: |-
+      &eHello again pattern :D
+      &eWhat do you need from me?
+      &eCan I be your friend?
+      &eToday I am very happy.
+  fully:
+    miner: |-
+      &c:(
+      &cMy inventory is full...
+      &cI want to mine more :,(
+    farmer: |-
+      &c:o
+      &cMy inventory is full...
+      &cYou will need more food :O
+    lumberjack: |-
+      &cXD
+      &cMy inventory is full...
+      &cYou want me to cut more?
+    hunter: |-
+      &cXD
+      &cMy inventory is full...
+      &cYou want me to cut more?
+    rancher: |-
+      &cXD
+      &cMy inventory is full...
+      &cYou want me to cut more?
+    peasant: |-
+      &c:o
+      &cMy inventory is full...
+      &cYou will need more food :O
+    fisher: |-
+      &c:o
+      &cMy inventory is full...
+      &cYou will need more food :O
+    cactuscane: |-
+      &c:o
+      &cMy inventory is full...
+      &cYou want me to cut more?
+  noCorrect:
+    miner: |-
+      &c/!\
+      &cThis place is not perfect...
+      &cI need 2 x 2 of air or my material
+    farmer: |-
+      &c/!\
+      &cThis place is not perfect...
+      &cI need 2 x 2 of dirt, soil or grass
+    lumberjack: |-
+      &c/!\
+      &cThis place is not perfect...
+      &cI need 2 x 2 of dirt or grass
+    hunter: |-
+      &c/!\
+      &cThis place is not perfect...
+    rancher: |-
+      &c/!\
+      &cThis place is not perfect...
+    peasant: |-
+      &c/!\
+      &cThis place is not perfect...
+      &cI need 2 x 2 of dirt, soil or grass
+    fisher: |-
+      &c/!\
+      &cThis place is not perfect...
+    cactuscane: |-
+      &c/!\
+      &cThis place is not perfect...
+  lowFood:
+    miner: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+    farmer: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+    lumberjack: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+    hunter: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+    rancher: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+    peasant: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+    fisher: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+    cactuscane: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+  lowHealth:
+    miner: |-
+      &c:_(
+      &cI can't take it anymore.
+      &cI'll be gone soon.
+    farmer: |-
+      &c:_(
+      &cI can't take it anymore.
+      &cI'll be gone soon.
+    lumberjack: |-
+      &c:_(
+      &cI can't take it anymore.
+      &cI'll be gone soon.
+    hunter: |-
+      &c:_(
+      &cI can't take it anymore.
+      &cI'll be gone soon.
+    rancher: |-
+      &c:_(
+      &cI can't take it anymore.
+      &cI'll be gone soon.
+    peasant: |-
+      &c:_(
+      &cI can't take it anymore.
+      &cI'll be gone soon.
+    fisher: |-
+      &c:_(
+      &cI can't take it anymore.
+      &cI'll be gone soon.
+    cactuscane: |-
+      &c'~'
+      &cHey, give me something to eat.
+      &cI have really hungry.
+  noHealthNoFood:
+    miner: |-
+      &c¨ O ¨
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+    farmer: |-
+      &c¨ O ¨
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+    lumberjack: |-
+      &c¨ O ¨
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+    hunter: |-
+      &c¨ O ¨
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+    rancher: |-
+      &c¨ O ¨
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+    peasant: |-
+      &c¨ O ¨
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+    fisher: |-
+      &c¨ O ¨
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+    cactuscane: |-
+      &c'~'
+      &cI can't work, I don't have food,
+      &cand I'm almost dead.
+  sleeping:
+    miner: |-
+      &czZzZ...
+    farmer: |-
+      &czZzZ...
+    lumberjack: |-
+      &czZzZ...
+    hunter: |-
+      &czZzZ...
+    rancher: |-
+      &czZzZ...
+    peasant: |-
+      &czZzZ...
+    fisher: |-
+      &czZzZ...
+    cactuscane: |-
+      &czZzZ...
+menus:
+  upgrades:
+    fuel:
+      time: "&cFull"
+      status:
+        item: "&ePut in minion!"
+        minion: "&cClick to destroy!"
+        unlimited: "&eClick to get again!"
+  last:
+    nameItem: "&aLast Page"
+    loreItem: |-
+      &7Click to back a last
+      &7page.
+  next:
+    nameItem: "&aNext Page"
+    loreItem: |-
+      &7Click to back a last
+      &7page.
+  back:
+    nameItem: "&aGo Back"
+    loreItem: |-
+      &7To <destiny>
+  close:
+    nameItem: "&cClose"
+    loreItem: |-
+      &7Close this menu.
+  shop:
+    title: "&6Minions Shop"
+  layout:
+    title: "Ideal Layout (Top-down view)"
+    nothing:
+      nameItem: "&aNothing"
+      loreItem: |-
+        &7There's no room for this minion.
+    air:
+      nameItem: "&aAir Block"
+      loreItem: |-
+        &7You need an air block
+        &7in this position, a one
+        &7block down from your position.
+    soulsand:
+      nameItem: "&aSoul Sand Block"
+      loreItem: |-
+        &7You need an soul sand block
+        &7in this position, a one
+        &7block down from your position.
+    sand:
+      nameItem: "&aSand Block"
+      loreItem: |-
+        &7You need an sand block
+        &7in this position, a one
+        &7block down from your position.
+    grass:
+      nameItem: "&aGrass Block"
+      loreItem: |-
+        &7You need an grass block
+        &7in this position, a one
+        &7block down from your position.
+    fence:
+      nameItem: "&aFence"
+      loreItem: |-
+        &7You need an grass block
+        &7in this position, a
+        &7block from your position.
+    water:
+      nameItem: "&bWater"
+      loreItem: |-
+        &7You need an water block
+        &7in this position, a
+        &7block from your position.
+  stat:
+    title: "&aMinion Stats"
+    chest:
+      nameItem: "&eLinked Chest"
+      loreItem: |-
+        &7You can link chests as
+        &7extra inventory if you
+        &7have one linked the
+        &7location will go down:
+        &7
+        &bLocation: &e<chest>
+        &7
+        &eClick to link!
+        &cRight Click to unlink!
+    food:
+      nameItem: "&6Food"
+      loreItem: |-
+        &7Amount of food your minion has:
+        &7
+        &bFood: &e<food>&7/&a<max>
+        &7
+        &eClick minion with food!
+    health:
+      nameItem: "&cHealth"
+      loreItem: |-
+        &7Amount of health your minion has:
+        &7
+        &bHealth: &e<health>&7/&a<max>
+        &7
+        &eClick minion with produce item!
+  setupMainFood:
+    title: "&aFoods"
+    add:
+      nameItem: "&aAdd Food"
+      loreItem: |-
+        &7When you click you will enter
+        &7the setup of a new meal,
+        &7but if you want to edit
+        &7one just click on the icon.
+        &7
+        &eClick to add!
+  setupFood:
+    title: "&aSetup Food"
+    food:
+      nameItem: "&aFood Item"
+      loreItem: |-
+        &7This is the item that
+        &7represents the minion's food.
+        &7
+        &eClick to set!
+    amount:
+      nameItem: "&aAmount Food"
+      loreItem: |-
+        &7This is the amount of
+        &7food this item gives.
+        &7
+        &eAmount: &b<amount>
+        &7
+        &eClick to set!
+    save:
+      nameItem: "&aSave Food"
+      loreItem: |-
+        &7When you click, this
+        &7food will be saved.
+        &7
+        &eClick to save!
+  craft:
+    title: "&aCraft <title>"
+    upgrade:
+      nameItem: "&eUpgrade Now"
+      loreItem: |-
+        &7You can improve the minion
+        &7now by clicking this item,
+        &7if you have all the materials
+        &7in your inventory.
+        &7
+        &eClick to upgrade!
+  upgrade:
+    title: "&aUpgrade <title>"
+    level:
+      nameItem: "&eLevel Upgrade"
+      loreItem: |-
+        &7To level up to <level> you need:
+        &7
+        &eLevel: &a<amount>
+        &7
+        &eClick to upgrade!
+    coins:
+      nameItem: "&eCoins Upgrade"
+      loreItem: |-
+        &7To level up to <level> you need:
+        &7
+        &eCoins: &a<amount>
+        &7
+        &eClick to upgrade!
+    craft:
+      nameItem: "&eCraft Upgrade"
+      loreItem: |-
+        &7You need the materials shown
+        &7in preview, or enter the
+        &7material as a result.
+        &7
+        &eClick to upgrade!
+        &eRight to preview craft!
+  minion:
+    adminTitle: "&8Minion (Admin View)"
+    quick:
+      has: "&eClick to upgrade!"
+      noHas: "&cYou need more materials!"
+      nameItem: "&aQuick-Upgrade Minion"
+      loreItem: |-
+        &7Click here to upgrade your
+        &7minion to the next tier.
+        &7
+        &7Time Between Actions: &8<timeNow> <arrow> &a<timeNext>
+        &7Max Storage: &8<slotsNow> <arrow> &e<slotsNext>
+        &7
+        <status>
+    chestLinked:
+      nameItem: "&cChest Slot"
+      loreItem: |-
+        &7This minion uses the linked chest,
+        &7does not use its own inventory.
+    blockedSlot:
+      nameItem: "&cBlocked Slot"
+      loreItem: |-
+        &7As you level up to the
+        &7minion to be unlocked.
+    layout:
+      nameItem: "&aIdeal Layout"
+      loreItem: |-
+        &7Click to see ideal
+        &7layout of this minion.
+    info:
+      nameItem: "<type>"
+      loreItem: |-
+        <lore>
+        &7
+        &7Time Between Actions: &a<time>s
+        &7Max Storage: &e<max>
+        &7Resources Generated: &b<generated>
+    next:
+      nameItem: "&eNext Tier"
+      loreItem: |-
+        &7The next tier is <level>
+        &7the tier give:
+        &7
+        &7Time Between Actions: &8<timeNow> <arrow> &a<timeNext>
+        &7Max Storage: &8<slotsNow> <arrow> &e<slotsNext>
+    skin:
+      nameItem: "&aMinion Skin Slot"
+      loreItem: |-
+        &7You can insert a Minion Skin
+        &7here to change the appearance of
+        &7your minion.
+    fuel:
+      nameItem: "&aFuel"
+      loreItem: |-
+        &7Increase the speed of your
+        &7minion by adding minion fuel
+        &7items here.
+        &7
+        &cNote: &7You can not take
+        &7fuel back out after you
+        &7place it here!
+    shipping:
+      nameItem: "&aAutomated Shipping"
+      loreItem: |-
+        &7Add a &bBudget Hopper&7,
+        &bEnchanted Hopper &7or a
+        &bPerfect Hopper &7here to make
+        &7your minion automatically sell
+        &7generated items after its
+        &7inventory is full.
+    update:
+      nameItem: "&aUpgrate Slot"
+      loreItem: |-
+        &7You can improve your minion by
+        &7adding a minion upgrate item
+        &7here.
+    collect:
+      nameItem: "&aCollect All"
+      loreItem: |-
+        &eClick to collect all items!
+    pickup:
+      nameItem: "&aPickup Minion"
+      loreItem: |-
+        &eClick to pickup!
+  setup:
+    title: "&aMain Minions Config"
+    fuelCraft:
+      title: "&aCraft Setup Fuel"
+      permission:
+        nameItem: "&aPermission of Craft"
+        loreItem: |-
+          &7Sets whether crafting needs
+          &7any permission.
+          &7
+          &a&oType "none" to make crafting free.
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Craft"
+        loreItem: |-
+          &7By clicking you will save the crafting
+          &7that is required to get.
+          &7
+          &eClick to save!
+    setupFuel:
+      title: "&aSetup Fuel"
+      name:
+        nameItem: "&aName of Fuel"
+        loreItem: |-
+          &7Fuel Name:
+          &7
+          &eName: &a<name>
+          &7
+      setCraft:
+        nameItem: "&aSet Craft"
+        loreItem: |-
+          &7Doing will open a menu in
+          &7which you will set the crafting.
+          &7
+          &c&oIn order to use it, you must
+          &c&oactivate the crafting.
+          &7
+          &eClick to open!
+      isCraft:
+        nameItem: "&aCraft Enabled"
+        loreItem: |-
+          &7Sets whether this enhancement
+          &7can be obtained by crafting.
+          &7
+          &bState: &a<state>
+          &7
+          &eClick to change!
+      result:
+        nameItem: "&aItem"
+        loreItem: |-
+          &7This item is the one that will
+          &7function as the improvement.
+          &7
+          &c&oIf you have the craft activated
+          &c&othis is the item you will
+          &c&oreceive when you complete the crafting.
+          &7
+          &eClick with item in hand to change!
+      amount:
+        nameItem: "&aDuration"
+        loreItem: |-
+          &7Sets the duration of
+          &7this Fuel in seconds.
+          &7
+          &bTime: &a<time>
+          &7
+          &eClick to set!
+      percent:
+        nameItem: "&aPercent Reduction"
+        loreItem: |-
+          &7Sets the time reduction percentage.
+          &7
+          &bPercent: &a<percent>
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Fuel"
+        loreItem: |-
+          &7Save Fuel.
+          &7
+          &eClick to save!
+    compressorCraft:
+      title: "&aCraft Setup Compressor"
+      permission:
+        nameItem: "&aPermission of Craft"
+        loreItem: |-
+          &7Sets whether crafting needs
+          &7any permission.
+          &7
+          &a&oType "none" to make crafting free.
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Craft"
+        loreItem: |-
+          &7By clicking you will save the crafting
+          &7that is required to get.
+          &7
+          &eClick to save!
+    setupCompressor:
+      title: "&aSetup Compressor"
+      name:
+        nameItem: "&aName of Compressor"
+        loreItem: |-
+          &7Compressor Name:
+          &7
+          &eName: &a<name>
+          &7
+      setCraft:
+        nameItem: "&aSet Craft"
+        loreItem: |-
+          &7Doing will open a menu in
+          &7which you will set the crafting.
+          &7
+          &c&oIn order to use it, you must
+          &c&oactivate the crafting.
+          &7
+          &eClick to open!
+      isCraft:
+        nameItem: "&aCraft Enabled"
+        loreItem: |-
+          &7Sets whether this enhancement
+          &7can be obtained by crafting.
+          &7
+          &bState: &a<state>
+          &7
+          &eClick to change!
+      result:
+        nameItem: "&aItem"
+        loreItem: |-
+          &7This item is the one that will
+          &7function as the improvement.
+          &7
+          &c&oIf you have the craft activated
+          &c&othis is the item you will
+          &c&oreceive when you complete the crafting.
+          &7
+          &eClick with item in hand to change!
+      amount:
+        nameItem: "&aAmount to Compress"
+        loreItem: |-
+          &7Sets the number of items that
+          &7the minion must have in order to compress.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Compressor"
+        loreItem: |-
+          &7Save Compressor.
+          &7
+          &eClick to save!
+    autoSmeltCraft:
+      title: "&aCraft Setup AutoSmelt"
+      permission:
+        nameItem: "&aPermission of Craft"
+        loreItem: |-
+          &7Sets whether crafting needs
+          &7any permission.
+          &7
+          &a&oType "none" to make crafting free.
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Craft"
+        loreItem: |-
+          &7By clicking you will save the crafting
+          &7that is required to get.
+          &7
+          &eClick to save!
+    setupAutoSmelt:
+      title: "&aSetup AutoSmelt"
+      name:
+        nameItem: "&aName of Smelt"
+        loreItem: |-
+          &7AutoSmelt Name:
+          &7
+          &eName: &a<name>
+          &7
+      setCraft:
+        nameItem: "&aSet Craft"
+        loreItem: |-
+          &7Doing will open a menu in
+          &7which you will set the crafting.
+          &7
+          &c&oIn order to use it, you must
+          &c&oactivate the crafting.
+          &7
+          &eClick to open!
+      isCraft:
+        nameItem: "&aCraft Enabled"
+        loreItem: |-
+          &7Sets whether this enhancement
+          &7can be obtained by crafting.
+          &7
+          &bState: &a<state>
+          &7
+          &eClick to change!
+      result:
+        nameItem: "&aItem"
+        loreItem: |-
+          &7This item is the one that will
+          &7function as the improvement.
+          &7
+          &c&oIf you have the craft activated
+          &c&othis is the item you will
+          &c&oreceive when you complete the crafting.
+          &7
+          &eClick with item in hand to change!
+      amount:
+        nameItem: "&aGet Percent"
+        loreItem: |-
+          &7Sets the probability that
+          &7this item has to be delivered.
+          &7
+          &bPercent: &a<percent>
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Auto Smelt"
+        loreItem: |-
+          &7Save Auto Smelt.
+          &7
+          &eClick to save!
+    autoSellCraft:
+      title: "&aCraft Setup AutoSell"
+      permission:
+        nameItem: "&aPermission of Craft"
+        loreItem: |-
+          &7Sets whether crafting needs
+          &7any permission.
+          &7
+          &a&oType "none" to make crafting free.
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Craft"
+        loreItem: |-
+          &7By clicking you will save the crafting
+          &7that is required to get.
+          &7
+          &eClick to save!
+    setupAutoSell:
+      title: "&aSetup AutoSell"
+      name:
+        nameItem: "&aName of Sell"
+        loreItem: |-
+          &7AutoSell Name:
+          &7
+          &eName: &a<name>
+          &7
+      setCraft:
+        nameItem: "&aSet Craft"
+        loreItem: |-
+          &7Doing will open a menu in
+          &7which you will set the crafting.
+          &7
+          &c&oIn order to use it, you must
+          &c&oactivate the crafting.
+          &7
+          &eClick to open!
+      isCraft:
+        nameItem: "&aCraft Enabled"
+        loreItem: |-
+          &7Sets whether this enhancement
+          &7can be obtained by crafting.
+          &7
+          &bState: &a<state>
+          &7
+          &eClick to change!
+      result:
+        nameItem: "&aItem"
+        loreItem: |-
+          &7This item is the one that will
+          &7function as the improvement.
+          &7
+          &c&oIf you have the craft activated
+          &c&othis is the item you will
+          &c&oreceive when you complete the crafting.
+          &7
+          &eClick with item in hand to change!
+      amount:
+        nameItem: "&aSell Percent"
+        loreItem: |-
+          &7Sets the percentage at which
+          &7this item is sold,
+          &7of the original cost.
+          &7
+          &bPercent: &a<percent>
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Auto Sell"
+        loreItem: |-
+          &7Save Auto Sell.
+          &7
+          &eClick to save!
+    craft:
+      title: "&aCraft Setup"
+      permission:
+        nameItem: "&aPermission of Craft"
+        loreItem: |-
+          &7Sets whether crafting needs
+          &7any permission.
+          &7
+          &a&oType "none" to make crafting free.
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Craft"
+        loreItem: |-
+          &7By clicking you will save the crafting
+          &7that is required to level up.
+          &7
+          &eClick to save!
+    main:
+      add:
+        nameItem: "&aAdd Minion"
+        loreItem: |-
+          &eClick to add a new minion!
+    giveInInv:
+      title: "&aGive in Inv Items"
+      save:
+        nameItem: "&aSave Items"
+        loreItem: |-
+          &7Clicking on the items will
+          &7save and we will return
+          &7you to the previous menu.
+          &7
+          &eClick to save!
+    smelt:
+      title: "&aSmelt Upgrade Items"
+      save:
+        nameItem: "&aSave Items"
+        loreItem: |-
+          &7Clicking on the items will
+          &7save and we will return
+          &7you to the previous menu.
+          &7
+          &eClick to save!
+    compressor:
+      title: "&aCompressor Upgrade Items"
+      save:
+        nameItem: "&aSave Items"
+        loreItem: |-
+          &7Clicking on the items will
+          &7save and we will return
+          &7you to the previous menu.
+          &7
+          &eClick to save!
+    minionLevel:
+      title: "&aMinion Level Setup"
+      setCraft:
+        nameItem: "&aSet Craft"
+        loreItem: |-
+          &7Clicking will open a menu
+          &7in which you can set the
+          &7necessary crafting to
+          &7move to the next level.
+          &7
+          &c&oIn order to use it, you must
+          &c&oactivate the crafting upgrade.
+          &7
+          &eClick to open!
+      save:
+        nameItem: "&aSave Level"
+        loreItem: |-
+          &7Clicking save this level.
+          &7
+          &eClick to save!
+      isCraft:
+        nameItem: "&aCraft Upgrade"
+        loreItem: |-
+          &7Choose whether this level
+          &7can go up to the next
+          &7level using craft.
+          &7
+          &bState: &a<state>
+          &7
+          &eClick to change!
+      isCoins:
+        nameItem: "&aCoins Upgrade"
+        loreItem: |-
+          &7Choose whether this level
+          &7can go up to the next
+          &7level using coins.
+          &7
+          &bState: &a<state>
+          &7
+          &eClick to change!
+      isLevel:
+        nameItem: "&aLevel Upgrade"
+        loreItem: |-
+          &7Choose whether this level
+          &7can go up to the next
+          &7level using levels.
+          &7
+          &bState: &a<state>
+          &7
+          &eClick to change!
+      delay:
+        nameItem: "&aDelay Between Actions"
+        loreItem: |-
+          &7This is the time you spend
+          &7at this level for minion
+          &7actions. Enough to add or collect.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+      max:
+        nameItem: "&aMax Storage"
+        loreItem: |-
+          &7This is the amount of space
+          &7the minion has to store
+          &7at this level.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+      upgradeLevel:
+        nameItem: "&aLevel Upgrade Cost"
+        loreItem: |-
+          &7This is the tiered price it
+          &7costs to level up to the minion,
+          &7this only applies if the minion
+          &7has this option enabled.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+      upgradeCoins:
+        nameItem: "&aCoins Upgrade Cost"
+        loreItem: |-
+          &7This is the tiered price it
+          &7costs to coins up to the minion,
+          &7this only applies if the minion
+          &7has this option enabled.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+      health:
+        nameItem: "&aMax Health"
+        loreItem: |-
+          &7This is the maximum life
+          &7the minion will have.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+      food:
+        nameItem: "&aMax Food"
+        loreItem: |-
+          &7This is the maximum food
+          &7the minion will have.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+      workTime:
+        nameItem: "&aWork Time"
+        loreItem: |-
+          &7This is the amount of
+          &7time of work of the minion.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+      sleep:
+        nameItem: "&aSleep Time"
+        loreItem: |-
+          &7This is the amount of
+          &7time of sleep of the minion.
+          &7
+          &bAmount: &a<amount>
+          &7
+          &eClick to change!
+    minion:
+      title: "&aMinion Setup"
+      type:
+        nameItem: "&aMinion Type"
+        loreItem: |-
+          &7You'll choose the type of
+          &7minion you want to set up.
+          &7
+          &bType: &e<type>
+          &7
+          &7Types Available:
+          &eFARMER
+          &eFISHER
+          &eLUMBERJACK
+          &eMINER
+          &eRANCHER
+          &eHUNTER
+          &ePEASANT
+          &eCACTUSCANE
+          &eCOLLECTOR
+          &eSELLER
+          &7
+          &eClick to set!
+      key:
+        nameItem: "&aMinion key"
+        loreItem: |-
+          &c&oAttention, it is important that
+          &c&oyou change this, because this
+          &c&ois how the minion is recognized,
+          &c&oyou can use names like diamond1
+          &c&oor the like, if you do not change
+          &c&oit will be replaced with the
+          &c&oname of the material it produces.
+          &7
+          &bKey: &e<key>
+          &7
+          &eClick to change!
+      red:
+        nameItem: "&aArmor Red Amount"
+        loreItem: |-
+          &7Choose the amount of red
+          &7the minion's armor has.
+          &7
+          &bRed: &e<amount>
+          &7
+          &eClick to change!
+      blue:
+        nameItem: "&aArmor Blue Amount"
+        loreItem: |-
+          &7Choose the amount of blue
+          &7the minion's armor has.
+          &7
+          &bBlue: &e<amount>
+          &7
+          &eClick to change!
+      green:
+        nameItem: "&aArmor Green Amount"
+        loreItem: |-
+          &7Choose the amount of green
+          &7the minion's armor has.
+          &7
+          &bGreen: &e<amount>
+          &7
+          &eClick to change!
+      lore:
+        nameItem: "&aMinion Lore"
+        loreItem: |-
+          &7Add or remove lines of the
+          &7lore that will have
+          &7the head of the minion.
+          &7
+          <lore>
+          &7
+          &eClick to add!
+          &cRight click to remove last!
+      minionTitle:
+        nameItem: "&aMinion Title"
+        loreItem: |-
+          &7When you click you will have
+          &7to write in the chat the
+          &7title of the minion.
+          &7
+          &bTitle: <title>
+          &7
+          &eClick to set!
+      save:
+        nameItem: "&aSave Minion"
+        loreItem: |-
+          &7Clicking save the minion
+          &7in the settings.
+          &7
+          &eClick to save!
+      levels:
+        nameItem: "&aLevels"
+        loreItem: |-
+          &7In this menu you can
+          &7add levels for this minion.
+          &7
+          &c&oYou must add at least one level.
+          &7
+          &eClick to open!
+      priceCompressor:
+        nameItem: "&aPrice Compressor Sell"
+        loreItem: |-
+          &7This is the price from which
+          &7the percentage will be taken
+          &7when the auto sell upgrade is
+          &7activated, this price is
+          &7the compressed item.
+          &7
+          &bPrice: &a<price>
+          &7
+          &eClick to change!
+      priceSmelt:
+        nameItem: "&aPrice Smelt Sell"
+        loreItem: |-
+          &7This is the price from which
+          &7the percentage will be taken
+          &7when the auto sell upgrade is
+          &7activated, this price is
+          &7the smelted item.
+          &7
+          &bPrice: &a<price>
+          &7
+          &eClick to change!
+      priceNormal:
+        nameItem: "&aPrice Normal Sell"
+        loreItem: |-
+          &7This is the price from which
+          &7the percentage will be taken
+          &7when the auto sell upgrade is
+          &7activated, this price is
+          &7the normal item.
+          &7
+          &bPrice: &a<price>
+          &7
+          &eClick to change!
+      fuelEnabled:
+        nameItem: "&aFuel Upgrade"
+        loreItem: |-
+          &7Choose if this minion can
+          &7receive the Fuel upgrade.
+          &7
+          &bState: <state>
+          &7
+          &eClick to change!
+      autoSellEnabled:
+        nameItem: "&aAutoSell Upgrade"
+        loreItem: |-
+          &7Choose if this minion can
+          &7receive the AutoSell upgrade.
+          &7
+          &bState: <state>
+          &7
+          &eClick to change!
+      smeltEnabled:
+        nameItem: "&aAutoSmelt Upgrade"
+        loreItem: |-
+          &7Choose if this minion can
+          &7receive the AutoSmelt upgrade.
+          &7
+          &bState: <state>
+          &7
+          &eClick to change!
+      compressorEnabled:
+        nameItem: "&aCompressor Upgrade"
+        loreItem: |-
+          &7Choose if this minion can
+          &7receive the Compressor upgrade.
+          &7
+          &bState: <state>
+          &7
+          &eClick to change!
+      entity:
+        nameItem: "&aProduce Entity"
+        loreItem: |-
+          &7When clicking you must type
+          &7the entity that the minion
+          &7will produce in each action.
+      place:
+        nameItem: "&aProduce Item"
+        loreItem: |-
+          &7The item on the bottom, will be
+          &7the item that the minion in can
+          &7the floor, when the time comes
+          &7to perform its action.
+      give:
+        nameItem: "&aNormal Give"
+        loreItem: |-
+          &7When you click you will open
+          &7a menu in which you can put
+          &7the items that the minion receives
+          &7in the inventory for each action,
+          &7normal without improvements.
+      compressor:
+        nameItem: "&aCompressor Give"
+        loreItem: |-
+          &7When you click you will open
+          &7a menu in which you can put
+          &7the items that the minion receives
+          &7in the inventory for each action,
+          &7with compressor improvement.
+      smelt:
+        nameItem: "&aSmelt Give"
+        loreItem: |-
+          &7When you click you will open
+          &7a menu in which you can put
+          &7the items that the minion receives
+          &7in the inventory for each action,
+          &7with autosmelt improvement.

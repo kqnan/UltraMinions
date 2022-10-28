@@ -1,0 +1,1037 @@
+minions:
+  wheat_minion:
+    key: wheat_minion
+    type: FARMER
+    title: '&eWheat Minion'
+    lore:
+      - '&7This is a Wheat Minion'
+      - '&7'
+      - '&eRight click to place'
+    url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+    place:
+      ==: org.bukkit.inventory.ItemStack
+      v: 1631
+      type: WHEAT_SEEDS
+    red: 92
+    blue: 92
+    green: 92
+    spawn: UNKNOWN
+    compressor:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: HAY_BLOCK
+    smelt:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: BREAD
+    giveInInv:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 1631
+          type: WHEAT_SEEDS
+    priceNormalSell: 2.0
+    priceSmeltedSell: 4.0
+    priceCompressedSell: 2.0
+    compressorEnabled: false
+    smeltEnabled: true
+    autoSellEnabled: true
+    fuelEnabled: true
+    damage: 5
+    levels:
+      '0':
+        level: 1
+        levelTitle: '&eWheat Minion I'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 100000
+        upgradeLevels: 10
+        max: 64
+        delay: 127
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '1':
+        level: 2
+        levelTitle: '&eWheat Minion II'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 138000
+        upgradeLevels: 10
+        max: 128
+        delay: 119
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '2':
+        level: 3
+        levelTitle: '&eWheat Minion III'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 200000
+        upgradeLevels: 10
+        max: 192
+        delay: 111
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '3':
+        level: 4
+        levelTitle: '&eWheat Minion IV'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 238000
+        upgradeLevels: 10
+        max: 256
+        delay: 103
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '4':
+        level: 5
+        levelTitle: '&eWheat Minion V'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 300000
+        upgradeLevels: 10
+        max: 320
+        delay: 95
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '5':
+        level: 6
+        levelTitle: '&eWheat Minion VI'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 338000
+        upgradeLevels: 10
+        max: 384
+        delay: 87
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '6':
+        level: 7
+        levelTitle: '&eWheat Minion VII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 400000
+        upgradeLevels: 10
+        max: 448
+        delay: 79
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '7':
+        level: 8
+        levelTitle: '&eWheat Minion VIII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 438000
+        upgradeLevels: 10
+        max: 512
+        delay: 71
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '8':
+        level: 9
+        levelTitle: '&eWheat Minion IX'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 500000
+        upgradeLevels: 10
+        max: 576
+        delay: 63
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '9':
+        level: 10
+        levelTitle: '&eWheat Minion X'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 538000
+        upgradeLevels: 10
+        max: 640
+        delay: 55
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '10':
+        level: 11
+        levelTitle: '&eWheat Minion XI'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 600000
+        upgradeLevels: 10
+        max: 704
+        delay: 47
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '11':
+        level: 12
+        levelTitle: '&eWheat Minion XII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 638000
+        upgradeLevels: 10
+        max: 768
+        delay: 39
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '12':
+        level: 13
+        levelTitle: '&eWheat Minion XIII'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 700000
+        upgradeLevels: 10
+        max: 832
+        delay: 31
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '13':
+        level: 14
+        levelTitle: '&eWheat Minion XIV'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 738000
+        upgradeLevels: 10
+        max: 896
+        delay: 23
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+      '14':
+        level: 15
+        levelTitle: '&eWheat Minion XV'
+        isCraftingTable: true
+        health: 100
+        food: 100
+        workTime: 3600
+        sleep: 600
+        upgradeCoins: 1000000
+        upgradeLevels: 10
+        max: 960
+        delay: 15
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJhMTZhNmFkOWM3ZTg5ZDI1ZTc0ZGJmY2RjMDhmNmRjNzIzMzM2N2E0MzE3MzJjNWE4Nzc5MDlkZTcxMWYxMCJ9fX0=
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WOODEN_HOE
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 1631
+              type: WHEAT
+              amount: 8
+          permission: none
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjYjQ2ODM2Y2NjY2JhYjQyNGRhZDEzNTU3ZjIwOTYyM2Y5ZDZlYzVjNjY1ZjdiZTc2OWJlYmVjNGMxNTdmYSJ9fX0=
+        animation: picar.animc
+        handItem: WOODEN_HOE
+    animation: picar.animc
+    handItem: WOODEN_HOE

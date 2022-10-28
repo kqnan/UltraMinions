@@ -1,0 +1,29 @@
+skins:
+  princess:
+    name: "&7Princess"
+    uri: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg3MDM3NTQwOTZjNDIwYmI2MDkyNzI4N2U4MGM2MzkzOTNlZTVjNWZjOTJkOGIxNjc3MDc1N2NjNGNhNWU2ZSJ9fX0="
+    armor:
+      red: 223
+      green: 3
+      blue: 252
+  dragon:
+    name: "&6Dragon"
+    uri: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU1OGVmYmU2Njk3NjA5OWNmZDYyNzYwZDllMDUxNzBkMmJiOGY1MWU2ODgyOWFiOGEwNTFjNDhjYmM0MTVjYiJ9fX0="
+    armor:
+      red: 252
+      green: 173
+      blue: 0
+  rockhopper:
+    name: "&4Rockhopper"
+    uri: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRiYzI3NDBlOTFiMGU2M2U5YWY1M2Y3YmFmYmJlYTk3MDllMTliNTE3ZTA2YzgyMzU1YjA2NTAxMDM3MTI1In19fQ=="
+    armor:
+      red: 255
+      green: 0
+      blue: 0
+  bumblebee:
+    name: "&eBumblebee"
+    uri: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTlmODBkNmIxMjA4MmI1ZDAwYWIzMDFjM2E4N2E0ZWNiM2RhYmZkYzA2NTk1ZWU1NGU1MTk1YWZlNWMwZjk5YyJ9fX0="
+    armor:
+      red: 255
+      green: 255
+      blue: 0

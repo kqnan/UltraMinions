@@ -1,0 +1,50 @@
+interpolate
+length 126
+frame 0
+Armorstand_Position 0.0 0.0 0.0 -91.80557
+Armorstand_Middle 0.0 0.0 0.0
+Armorstand_Right_Leg 1.0 0.0 1.0
+Armorstand_Left_Leg -1.0 0.0 -1.0
+Armorstand_Left_Arm -10.0 0.0 -10.0
+Armorstand_Right_Arm 341.22 0.0 10.0
+Armorstand_Head 0.0 0.0 0.0
+frame 25
+Armorstand_Position 0.0 0.0 0.0 -91.80557
+Armorstand_Middle 0.0 0.0 0.0
+Armorstand_Right_Leg 1.0 0.0 1.0
+Armorstand_Left_Leg -1.0 0.0 -1.0
+Armorstand_Left_Arm -10.0 0.0 -10.0
+Armorstand_Right_Arm 232.0 0.0 10.0
+Armorstand_Head 0.0 0.0 0.0
+frame 50
+Armorstand_Position 0.0 0.0 0.0 -91.80557
+Armorstand_Middle 0.0 0.0 0.0
+Armorstand_Right_Leg 1.0 0.0 1.0
+Armorstand_Left_Leg -1.0 0.0 -1.0
+Armorstand_Left_Arm -10.0 0.0 -10.0
+Armorstand_Right_Arm 277.78 0.0 10.0
+Armorstand_Head 0.0 0.0 0.0
+frame 75
+Armorstand_Position 0.0 0.0 0.0 -91.80557
+Armorstand_Middle 0.0 0.0 0.0
+Armorstand_Right_Leg 1.0 0.0 1.0
+Armorstand_Left_Leg -1.0 0.0 -1.0
+Armorstand_Left_Arm -10.0 0.0 -10.0
+Armorstand_Right_Arm 232.77 0.0 10.0
+Armorstand_Head 0.0 0.0 0.0
+frame 100
+Armorstand_Position 0.0 0.0 0.0 -91.80557
+Armorstand_Middle 0.0 0.0 0.0
+Armorstand_Right_Leg 1.0 0.0 1.0
+Armorstand_Left_Leg -1.0 0.0 -1.0
+Armorstand_Left_Arm -10.0 0.0 -10.0
+Armorstand_Right_Arm 281.58 0.0 10.0
+Armorstand_Head 0.0 0.0 0.0
+frame 125
+Armorstand_Position 0.0 0.0 0.0 -91.80557
+Armorstand_Middle 0.0 0.0 0.0
+Armorstand_Right_Leg 1.0 0.0 1.0
+Armorstand_Left_Leg -1.0 0.0 -1.0
+Armorstand_Left_Arm -10.0 0.0 -10.0
+Armorstand_Right_Arm 341.22 0.0 10.0
+Armorstand_Head 0.0 0.0 0.0
