@@ -23,6 +23,7 @@ public class SkinManager {
         for (String s : conf.getKeys(false)) {
             skins.put(s.toLowerCase(), new MinionSkin(plugin, s));
         }
+        System.out.println(skins);
     }
 
     public HashMap<String, MinionSkin> getSkins() {

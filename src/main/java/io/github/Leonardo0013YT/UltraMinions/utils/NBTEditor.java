@@ -67,12 +67,16 @@ public final class NBTEditor {
 
 
     public static String getString(Object object, Object... keys) {
-        String key="";
+        StringBuilder key= new StringBuilder();
         for(Object k:keys){
-            key+=k+"_";
+            key.append(k).append("_");
         }
         NBTItem nbtItem=new NBTItem((ItemStack) object);
-        return nbtItem.getString(key);
+        String r=nbtItem.getString(key.toString());
+
+            r= r.replace("\"","").replace("'","");
+
+        return r;
     }
 
 
@@ -82,8 +86,8 @@ public final class NBTEditor {
             key+=k+"_";
         }
         NBTItem nbtItem=new NBTItem((ItemStack) object);
-
-        return Integer.parseInt(nbtItem.getString(key));
+        String r=nbtItem.getString(key);
+        return r.equals("")?0:Integer.parseInt(r);
     }
 
     public static long getLong(Object object, Object... keys) {
@@ -92,57 +96,37 @@ public final class NBTEditor {
             key+=k+"_";
         }
         NBTItem nbtItem=new NBTItem((ItemStack) object);
-        return Long.parseLong(nbtItem.getString(key));
+        String r=nbtItem.getString(key);
+        return r.equals("")?0:Long.parseLong(r);
     }
 
 
     public static boolean contains(Object object, Object... keys) {
-        String key="";
+        StringBuilder key= new StringBuilder();
         for(Object k: keys){
-            key+=k+"_";
+            key.append(k).append("_");
         }
         NBTItem nbtItem=new NBTItem((ItemStack) object);
-       return nbtItem.hasKey(key);
+       return nbtItem.hasKey(key.toString());
 
     }
 
-    /**
-     * Get the keys at the specific location, if it is a compound.
-     *
-     * @param object Must be an ItemStack, Entity, Block, or NBTCompound
-     * @param keys   Keys in descending order
-     * @return A set of keys
-     */
 
 
-    /**
-     * Gets the size of the list or NBTCompound at the given location.
-     *
-     * @param object Must be an ItemStack, Entity, Block, or NBTCompound
-     * @param keys   Keys in descending order
-     * @return The size of the list or compound at the given location.
-     */
 
-    /**
-     * Sets the value in the object with the given keys
-     *
-     * @param <T>    ItemStack, Entity, Block, or NBTCompound.
-     * @param object Must be an ItemStack, Entity, Block, or NBTCompound
-     * @param value  The value to set, can be an NBTCompound
-     * @param keys   The keys in descending order
-     * @return The new item stack if the object provided is an item, else original object
-     */
-    public static <T> T set(T object, Object value, Object... keys) {
-        if (object instanceof ItemStack) {
-            ItemStack itemStack=(ItemStack) object;
+    public static ItemStack set(ItemStack object, Object value, Object... keys) {
+        if (object != null) {
 
-            String key="";
+            StringBuilder key= new StringBuilder();
             for(Object k:keys){
-                key+=k+"_";
+                key.append(k).append("_");
             }
-            NBTItem nbtItem=new NBTItem(itemStack);
-            nbtItem.setObject(key,value);
-            return (T) nbtItem.getItem();
+            NBTItem nbtItem=new NBTItem(object);
+            if(value instanceof String){
+                value=((String) value).replace("\"","").replace("'","");
+            }
+            nbtItem.setObject(key.toString(),value);
+            return nbtItem.getItem();
         }
         return object;
     }
