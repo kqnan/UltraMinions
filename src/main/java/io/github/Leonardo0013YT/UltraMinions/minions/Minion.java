@@ -93,6 +93,7 @@ public abstract class Minion {
         this.animation = minion.getString(path + ".animation", "picar.animc");
         this.type = MinionType.valueOf(minion.getString(path + ".type"));
         Utils.check(path + ".handItem", type.getHandItem().name(), minion, f);
+
         this.handItem = new ItemStack(Material.valueOf(minion.getString(path + ".handItem")));
         ConfigurationSection levels = minion.getConfigurationSection(path + ".levels");
         for (String l : levels.getKeys(false)) {
