@@ -207,223 +207,188 @@ holograms:
   ## Every line is a new message
   social:
     miner: |-
-      &eHello again pattern :D
-      &eWhat do you need from me?
-      &eCan I be your friend?
-      &eToday I am very happy.
+      &e您好,伙计 :D
+      &e你想要什么?
+      &e我能成为你的朋友吗?
+      &e我今天很高兴
     farmer: |-
-      &eAll right, Master? :O
-      &eAre you hungry?
-      &eI can make you something.
-      &eI am very worried about this day.
+      &e是的,主人! :O
+      &e你饿了么?
+      &e我能为你做什么吗
     lumberjack: |-
-      &eWhat a step brotter that waves.
-      &eYou have got me here and you do not give me anything.
-      &eYou are lucky to have me.
-      &eAnother day here.
+      &e您好,伙计 :D
+      &e你想要什么?
+      &e我能成为你的朋友吗?
+      &e我今天很高兴
     hunter: |-
-      &eWhat a step brotter that waves.
-      &eYou have got me here and you do not give me anything.
-      &eYou are lucky to have me.
-      &eAnother day here.
+      &e您好,伙计 :D
+      &e你想要什么?
+      &e我能成为你的朋友吗?
+      &e我今天很高兴
     rancher: |-
-      &eWhat a step brotter that waves.
-      &eYou have got me here and you do not give me anything.
-      &eYou are lucky to have me.
-      &eAnother day here.
+      &e您好,伙计 :D
+      &e你想要什么?
+      &e我能成为你的朋友吗?
+      &e我今天很高兴
     peasant: |-
-      &eWhat a step brotter that waves.
-      &eYou have got me here and you do not give me anything.
-      &eYou are lucky to have me.
-      &eAnother day here.
+      &e您好,伙计 :D
+      &e你想要什么?
+      &e我能成为你的朋友吗?
+      &e我今天很高兴
     fisher: |-
-      &eHello again pattern :D
-      &eWhat do you need from me?
-      &eCan I be your friend?
-      &eToday I am very happy.
+      &e您好,伙计 :D
+      &e你想要什么?
+      &e我能成为你的朋友吗?
+      &e我今天很高兴
     cactuscane: |-
-      &eHello again pattern :D
-      &eWhat do you need from me?
-      &eCan I be your friend?
-      &eToday I am very happy.
+      &e您好,伙计 :D
+      &e你想要什么?
+      &e我能成为你的朋友吗?
+      &e我今天很高兴
   fully:
     miner: |-
       &c:(
-      &cMy inventory is full...
-      &cI want to mine more :,(
+      &c小人的背包已满
+
     farmer: |-
       &c:o
-      &cMy inventory is full...
-      &cYou will need more food :O
+      &c小人的背包已满
     lumberjack: |-
       &cXD
-      &cMy inventory is full...
-      &cYou want me to cut more?
+      &c小人的背包已满
     hunter: |-
       &cXD
-      &cMy inventory is full...
-      &cYou want me to cut more?
+      &c小人的背包已满
     rancher: |-
       &cXD
-      &cMy inventory is full...
-      &cYou want me to cut more?
+      &c小人的背包已满
     peasant: |-
       &c:o
-      &cMy inventory is full...
-      &cYou will need more food :O
+      &c小人的背包已满
     fisher: |-
       &c:o
-      &cMy inventory is full...
-      &cYou will need more food :O
+      &c小人的背包已满
     cactuscane: |-
       &c:o
-      &cMy inventory is full...
-      &cYou want me to cut more?
+      &c小人的背包已满
   noCorrect:
     miner: |-
       &c/!\
-      &cThis place is not perfect...
-      &cI need 2 x 2 of air or my material
+      &c附近的方块布局不适合小人工作...
+
     farmer: |-
       &c/!\
-      &cThis place is not perfect...
-      &cI need 2 x 2 of dirt, soil or grass
+      &c附近的方块布局不适合小人工作...
     lumberjack: |-
       &c/!\
-      &cThis place is not perfect...
-      &cI need 2 x 2 of dirt or grass
+      &c附近的方块布局不适合小人工作...
     hunter: |-
       &c/!\
-      &cThis place is not perfect...
+      &c附近的方块布局不适合小人工作...
     rancher: |-
       &c/!\
-      &cThis place is not perfect...
+      &c附近的方块布局不适合小人工作...
     peasant: |-
       &c/!\
-      &cThis place is not perfect...
-      &cI need 2 x 2 of dirt, soil or grass
+      &c附近的方块布局不适合小人工作...
     fisher: |-
       &c/!\
-      &cThis place is not perfect...
+      &c附近的方块布局不适合小人工作...
     cactuscane: |-
       &c/!\
-      &cThis place is not perfect...
+      &c附近的方块布局不适合小人工作...
   lowFood:
     miner: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
     farmer: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
     lumberjack: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
     hunter: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
     rancher: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
     peasant: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
     fisher: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
     cactuscane: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人太饿了,需要你的喂食
   lowHealth:
     miner: |-
       &c:_(
-      &cI can't take it anymore.
-      &cI'll be gone soon.
+      &c小人生命值很低,需要你治愈
     farmer: |-
       &c:_(
-      &cI can't take it anymore.
-      &cI'll be gone soon.
+      &c小人生命值很低,需要你治愈
     lumberjack: |-
       &c:_(
-      &cI can't take it anymore.
-      &cI'll be gone soon.
+      &c小人生命值很低,需要你治愈
     hunter: |-
       &c:_(
-      &cI can't take it anymore.
-      &cI'll be gone soon.
+      &c小人生命值很低,需要你治愈
     rancher: |-
       &c:_(
-      &cI can't take it anymore.
-      &cI'll be gone soon.
+      &c小人生命值很低,需要你治愈
     peasant: |-
       &c:_(
-      &cI can't take it anymore.
-      &cI'll be gone soon.
+      &c小人生命值很低,需要你治愈
     fisher: |-
       &c:_(
-      &cI can't take it anymore.
-      &cI'll be gone soon.
+      &c小人生命值很低,需要你治愈
     cactuscane: |-
       &c'~'
-      &cHey, give me something to eat.
-      &cI have really hungry.
+      &c小人生命值很低,需要你治愈
   noHealthNoFood:
     miner: |-
       &c¨ O ¨
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
     farmer: |-
       &c¨ O ¨
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
     lumberjack: |-
       &c¨ O ¨
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
     hunter: |-
       &c¨ O ¨
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
     rancher: |-
       &c¨ O ¨
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
     peasant: |-
       &c¨ O ¨
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
     fisher: |-
       &c¨ O ¨
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
     cactuscane: |-
       &c'~'
-      &cI can't work, I don't have food,
-      &cand I'm almost dead.
+      &c小人因饥饿而停止了工作
   sleeping:
     miner: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
     farmer: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
     lumberjack: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
     hunter: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
     rancher: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
     peasant: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
     fisher: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
     cactuscane: |-
-      &czZzZ...
+      &c睡觉中zZzZ...
 menus:
   upgrades:
     fuel:
@@ -443,13 +408,13 @@ menus:
       &7Click to back a last
       &7page.
   back:
-    nameItem: "&aGo Back"
+    nameItem: "&a返回"
     loreItem: |-
-      &7To <destiny>
+      &7返回到 <destiny>
   close:
-    nameItem: "&cClose"
+    nameItem: "&c关闭"
     loreItem: |-
-      &7Close this menu.
+      &7关闭菜单
   shop:
     title: "&6Minions Shop"
   layout:
@@ -565,32 +530,30 @@ menus:
         &7
         &eClick to upgrade!
   upgrade:
-    title: "&aUpgrade <title>"
+    title: "&a升级 <title>"
     level:
-      nameItem: "&eLevel Upgrade"
+      nameItem: "&e使用附魔等级"
       loreItem: |-
-        &7To level up to <level> you need:
+        &7升级到 <level> 级你需要:
         &7
-        &eLevel: &a<amount>
+        &e附魔等级: &a<amount>
         &7
-        &eClick to upgrade!
+        &e点击升级!
     coins:
-      nameItem: "&eCoins Upgrade"
+      nameItem: "&e使用金币"
       loreItem: |-
-        &7To level up to <level> you need:
+        &7升级到 <level> 级你需要:
         &7
-        &eCoins: &a<amount>
+        &e金币: &a<amount>
         &7
-        &eClick to upgrade!
+        &e点击升级!
     craft:
-      nameItem: "&eCraft Upgrade"
+      nameItem: "&e使用配方升级"
       loreItem: |-
-        &7You need the materials shown
-        &7in preview, or enter the
-        &7material as a result.
+        &7使用特定的配方进行升级
         &7
-        &eClick to upgrade!
-        &eRight to preview craft!
+        &e点击升级!
+        &e右键预览配方!
   minion:
     adminTitle: "&8Minion (Admin View)"
     quick:
@@ -611,10 +574,9 @@ menus:
         &7This minion uses the linked chest,
         &7does not use its own inventory.
     blockedSlot:
-      nameItem: "&cBlocked Slot"
+      nameItem: "&c未解锁的背包槽位"
       loreItem: |-
-        &7As you level up to the
-        &7minion to be unlocked.
+        &7升级以解锁更多背包槽位
     layout:
       nameItem: "&a方块布局"
       loreItem: |-
