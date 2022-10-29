@@ -348,7 +348,7 @@ public class PlayerListener implements Listener {
             e.setCancelled(true);
             Block b = e.getClickedBlock();
             PlayerData pd = PlayerData.getPlayerData(p);
-            System.out.println(pd);
+
             if (pd == null) {
                 return;
             }
@@ -372,40 +372,41 @@ public class PlayerListener implements Listener {
             if (plugin.getCfm().isPreciousstones()) {
                 if (!plugin.getAdm().getPca().checkRegion(p, b.getLocation())) {
                     p.sendMessage(plugin.getLang().get("messages.noPreciusStone"));
-                    System.out.println("7------------------------------------");  return;
+
+                    return;
                 }
             }
             if (plugin.getCfm().isProtectionstones()) {
                 if (!plugin.getAdm().getPrsa().checkRegion(p, b.getLocation())) {
                     p.sendMessage(plugin.getLang().get("messages.noProtectionStone"));
-                    System.out.println("6------------------------------------"); return;
+                   return;
                 }
             }
             if (plugin.getCfm().isTowny()) {
                 if (!plugin.getAdm().getTowny().isInYourTown(p)) {
                     p.sendMessage(plugin.getLang().get("messages.noYourTown"));
-                    System.out.println("5------------------------------------");  return;
+                    return;
                 }
             }
             if (plugin.getCfm().isPlotsquared()) {
                 if (!plugin.getAdm().isAllowedPlot(p, b.getLocation())) {
                     p.sendMessage(plugin.getLang().get("messages.onlyInPlot"));
-                    System.out.println("4------------------------------------"); return;
+                     return;
                 }
             }
             String key = NBTEditor.getString(item, "KEY");
-            System.out.println(key);
+
             if (plugin.getCfm().isPermissionToPlace()) {
                 if (!plugin.getAdm().hasPermission(p, "ultraminions.place." + key)) {
                     p.sendMessage(plugin.getLang().get("messages.noPermissionToPlace"));
-                    System.out.println("3------------------------------------");  return;
+                     return;
                 }
             }
             int max = plugin.getAdm().getMaxPerType(p, key);
             if (max != 0) {
                 if (pd.getTypes().getOrDefault(key, 0) >= max) {
                     p.sendMessage(plugin.getLang().get("messages.noMoreThisType"));
-                    System.out.println("2------------------------------------");return;
+                 return;
                 }
             }
             pd.getTypes().put(key, pd.getTypes().getOrDefault(key, 0) + 1);
@@ -416,13 +417,12 @@ public class PlayerListener implements Listener {
             int workTime = NBTEditor.getInt(item, "WORKTIME");
             int sleep = NBTEditor.getInt(item, "SLEEP");
             long fueltime = NBTEditor.getLong(item, "FUELTIME");
-            System.out.println("1------------------------------------");
+
 
             PlayerMinion pm = new PlayerMinion(b.getLocation().clone().add(0.5, 1, 0.5), key, p);
             PlayerMinionUpgrade upgrade = new PlayerMinionUpgrade(pm);
             String autosell = NBTEditor.getString(item, "AUTOSELL");
-            System.out.println(NBTEditor.contains(item, "SKIN"));
-            System.out.println(NBTEditor.getString(item,"SKIN"));
+
             String skin = NBTEditor.contains(item, "SKIN") ? NBTEditor.getString(item, "SKIN") : "none";
             MinionManager.createMinion(item, level, generated, food, health, workTime, sleep, fueltime, pm, upgrade, autosell, plugin);
             pd.addPlayerMinion(pm);

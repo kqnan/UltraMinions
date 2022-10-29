@@ -2,7 +2,7 @@ minions:
   cactus:
     key: cactus
     type: CACTUSCANE
-    title: '&2Cactus Minion'
+    title: '&2仙人掌小人'
     lore:
       - '&7This is a default lore'
       - '&7of Minion.'

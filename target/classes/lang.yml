@@ -74,8 +74,8 @@ messages:
   giveAutoSmelt: "&aYou've been given the &b<key>&a autosmelt &ex<amount>&a."
   giveCompressor: "&aYou've been given the &b<key>&a compressor &ex<amount>&a."
   giveSkin: "&aYou've been given the &b<key>&a skin &ex<amount>&a."
-  placeMinion: "&aYou have put on <minion>&a you can only put &e(&b<min>&e/&b<max>&e)&a."
-  removedMinion: "&cYou've removed the minion, now you have &e(&b<min>&e/&b<max>&e)&c."
+  placeMinion: "&a你放置了 <minion> &e(&b<min>&e/&b<max>&e)&a"
+  removedMinion: "&c你拾起了小人 <minion> &e(&b<min>&e/&b<max>&e)&a"
   noYourMinion: "&cThis minion doesn't belong to you."
   noDestroy: "&cYou can't destroy the minion, use PickUp in the menu."
   noDestroyYour: "&cYou can't destroy a minion that's not yours."
@@ -95,7 +95,7 @@ messages:
   upgradeCoins: "&a你升级了你的 <title>"
   upgradeCraft: "&a你升级了你的 <title>"
   noEconomyPlugin: "&cYou don't have any economics plugins or haven't activated it."
-  noHasMaterials: "&cYou don't have the necessary materials."
+  noHasMaterials: "&c你没有升级所需的材料"
 setup:
   setFoodItem: "&aThe item that represents this food has been set."
   setCompressorItem: "&aThe item that represents this compressor has been set."
@@ -134,7 +134,7 @@ setup:
     setResult: "&cYou need to set a result, in crafting &e(If you don't want crafting just turn it off, but set the result)&c."
   thisNotWork: "&cThis isn't a minion job."
   thisNotType: "&cThis isn't a entity type."
-  onCursor: "&cYou must have the item at the cursor to replace it."
+  onCursor: "&c你必须有指针所指的物品"
   onHand: "&cYou must have the item in your hand to replace it."
   setPlace: "&aYou set the item that the minion will produce."
   setEntity: "&aThe entity type of spawn has been set."
@@ -519,16 +519,15 @@ menus:
         &7
         &eClick to save!
   craft:
-    title: "&aCraft <title>"
+    title: "&a升级 <title> 所需的物品"
     upgrade:
-      nameItem: "&eUpgrade Now"
+      nameItem: "&e点击升级"
       loreItem: |-
-        &7You can improve the minion
-        &7now by clicking this item,
-        &7if you have all the materials
-        &7in your inventory.
+        &7现在你可以点击这个按钮
+        &7从而升级这个小人
+        &7升级将会消耗上面的所有物品
         &7
-        &eClick to upgrade!
+        &e点击升级!
   upgrade:
     title: "&a升级 <title>"
     level:
