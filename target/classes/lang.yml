@@ -36,7 +36,7 @@ messages:
   newMinion: "&aHave put in a new minion <title>, minions needed for the next &eTier <tier>&a."
   noPutThis: "&cYou can't put minions because this place isn't yours."
   health: "&aYou've cure your minion, now you have &e<amount>"
-  feed: "&aYou've fed your minion, now you have &e<amount>"
+  feed: "&a你喂食了你的小人,现在他的饱食度为:&e<amount>"
   isProtect: "&cYou can't put the minion in a protected area."
   noPreciusStone: "&cYou can only put a minion in your protected region."
   noProtectionStone: "&cYou can only put a minion in your protected region."
@@ -79,7 +79,7 @@ messages:
   noYourMinion: "&cThis minion doesn't belong to you."
   noDestroy: "&cYou can't destroy the minion, use PickUp in the menu."
   noDestroyYour: "&cYou can't destroy a minion that's not yours."
-  maxLevel: "&cYou can't get any better because you're at the most."
+  maxLevel: "&c小人等级已达到最高级"
   noCursor: "&cYou need to have the upgrade item at the cursor."
   noUpgradeFuel: "&cThis is not a Fuel improvement."
   noUpgradeAutoSell: "&cThis is not a AutoSell improvement."
@@ -91,9 +91,9 @@ messages:
   noCraft: "&cYou need to have the item at the cursor to improve.."
   noCoins: "&cYou don't have enough coins to improve your minion."
   noLevels: "&cYou don't have enough levels to improve your minion."
-  upgradeLevels: "&aYou've upgraded your <title> &awith &b<level> &alevels."
-  upgradeCoins: "&aYou've upgraded your <title> &awith &b<coins> &acoins."
-  upgradeCraft: "&aYou've upgraded your <title> &awith Craft."
+  upgradeLevels: "&a你升级了你的 <title>"
+  upgradeCoins: "&a你升级了你的 <title>"
+  upgradeCraft: "&a你升级了你的 <title>"
   noEconomyPlugin: "&cYou don't have any economics plugins or haven't activated it."
   noHasMaterials: "&cYou don't have the necessary materials."
 setup:
@@ -453,77 +453,70 @@ menus:
   shop:
     title: "&6Minions Shop"
   layout:
-    title: "Ideal Layout (Top-down view)"
+    title: "方块布局 (俯视图)"
     nothing:
-      nameItem: "&aNothing"
+      nameItem: "&a什么都没有"
       loreItem: |-
-        &7There's no room for this minion.
+        &7没有空间.
     air:
-      nameItem: "&aAir Block"
+      nameItem: "&a空气"
       loreItem: |-
-        &7You need an air block
-        &7in this position, a one
-        &7block down from your position.
+        &7在小人的位置的下面一格处
+        &7应该放置空气
     soulsand:
-      nameItem: "&aSoul Sand Block"
+      nameItem: "&a灵魂沙"
       loreItem: |-
-        &7You need an soul sand block
-        &7in this position, a one
-        &7block down from your position.
+        &7在小人的位置的下面一格处
+        &7应该放置灵魂沙
     sand:
-      nameItem: "&aSand Block"
+      nameItem: "&a沙子"
       loreItem: |-
-        &7You need an sand block
-        &7in this position, a one
-        &7block down from your position.
+        &7在小人的位置的下面一格处
+        &7应该放置沙子
     grass:
-      nameItem: "&aGrass Block"
+      nameItem: "&a草方块"
       loreItem: |-
-        &7You need an grass block
-        &7in this position, a one
-        &7block down from your position.
+        &7在小人的位置的下面一格处
+        &7应该放置草方块
     fence:
-      nameItem: "&aFence"
+      nameItem: "&a栅栏"
       loreItem: |-
-        &7You need an grass block
-        &7in this position, a
-        &7block from your position.
+        &7在小人的位置的同一水平面
+        &7应该放置栅栏
     water:
-      nameItem: "&bWater"
+      nameItem: "&b水"
       loreItem: |-
-        &7You need an water block
-        &7in this position, a
-        &7block from your position.
+        &7在小人的位置的下面一格处
+        &7应该放置水
   stat:
-    title: "&aMinion Stats"
+    title: "&a小人的状态"
     chest:
-      nameItem: "&eLinked Chest"
+      nameItem: "&e连接的箱子"
       loreItem: |-
-        &7You can link chests as
-        &7extra inventory if you
-        &7have one linked the
-        &7location will go down:
+        &7你可以让小人连接一个箱子
+        &7他的背包满后将自动把物品
+        &7传送到箱子
         &7
-        &bLocation: &e<chest>
+        &b当前箱子位置: &e<chest>
         &7
-        &eClick to link!
-        &cRight Click to unlink!
+        &e左键点击连接!
+        &c右键点击断连!
     food:
-      nameItem: "&6Food"
+      nameItem: "&6饱食度"
       loreItem: |-
-        &7Amount of food your minion has:
+        &7你的小人的饱食度当前为:
         &7
-        &bFood: &e<food>&7/&a<max>
+        &b饱食度: &e<food>&7/&a<max>
         &7
-        &eClick minion with food!
+        &e手持食物右键喂食!
     health:
-      nameItem: "&cHealth"
+      nameItem: "&c生命值"
       loreItem: |-
-        &7Amount of health your minion has:
+        &7你的小人的生命值当前为:
         &7
-        &bHealth: &e<health>&7/&a<max>
+        &b生命值: &e<health>&7/&a<max>
         &7
-        &eClick minion with produce item!
+        &e用小人生产的物品来治疗他!
   setupMainFood:
     title: "&aFoods"
     add:
@@ -623,26 +616,26 @@ menus:
         &7As you level up to the
         &7minion to be unlocked.
     layout:
-      nameItem: "&aIdeal Layout"
+      nameItem: "&a方块布局"
       loreItem: |-
-        &7Click to see ideal
-        &7layout of this minion.
+        &7按照这样摆放方块才能让小人工作
+        &7点击查看正确的方块布局
     info:
       nameItem: "<type>"
       loreItem: |-
         <lore>
         &7
-        &7Time Between Actions: &a<time>s
-        &7Max Storage: &e<max>
-        &7Resources Generated: &b<generated>
+        &7动作时间间隔: &a<time>s
+        &7背包最大存储容量: &e<max>
+        &7已生成的资源数: &b<generated>
     next:
-      nameItem: "&eNext Tier"
+      nameItem: "&e下一等级"
       loreItem: |-
-        &7The next tier is <level>
-        &7the tier give:
+        &7下一等级是 <level>
+        &7<level>级将获得的增益:
         &7
-        &7Time Between Actions: &8<timeNow> <arrow> &a<timeNext>
-        &7Max Storage: &8<slotsNow> <arrow> &e<slotsNext>
+        &7动作时间间隔: &8<timeNow> <arrow> &a<timeNext>
+        &7最大存储容量: &8<slotsNow> <arrow> &e<slotsNext>
     skin:
       nameItem: "&a皮肤插槽"
       loreItem: |-
