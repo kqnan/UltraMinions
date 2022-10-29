@@ -88,6 +88,7 @@ public class MinionCactusCane extends Minion {
             if (t.equals(Material.WATER)) {
                 continue;
             }
+
             yes = false;
         }
         for (Vector l : woods) {
@@ -103,6 +104,7 @@ public class MinionCactusCane extends Minion {
             if (Utils.is1_14to1_16() && p.equals(Material.valueOf("BAMBOO")) && t.equals(Material.GRASS_BLOCK)) {
                 continue;
             }
+
             yes = false;
         }
         return yes;

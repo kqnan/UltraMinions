@@ -56,7 +56,7 @@ messages:
   parsedData: "&e<amount> &aplayer datas have been successfully passed."
   onlyInPlot: "&cYou can only put the minion on a plot."
   noMaterials: "&cThere are no materials to collect."
-  collect: "&aYou have collected all the materials."
+  collect: "&a获取了所有小人的生产资源"
   noCollect: "&cUse the item to collect in the minion."
   noConsole: "&cThat command can only be executed by users."
   noPermission: "&cYou don't have permission for this."
@@ -75,7 +75,7 @@ messages:
   giveCompressor: "&aYou've been given the &b<key>&a compressor &ex<amount>&a."
   giveSkin: "&aYou've been given the &b<key>&a skin &ex<amount>&a."
   placeMinion: "&a你放置了 <minion> &e(&b<min>&e/&b<max>&e)&a"
-  removedMinion: "&c你拾起了小人 <minion> &e(&b<min>&e/&b<max>&e)&a"
+  removedMinion: "&c你拾起了小人"
   noYourMinion: "&cThis minion doesn't belong to you."
   noDestroy: "&cYou can't destroy the minion, use PickUp in the menu."
   noDestroyYour: "&cYou can't destroy a minion that's not yours."
@@ -615,10 +615,12 @@ menus:
         &7在这里放置自动出售装置
         &7当小人物品栏满时自动出售物品
     update:
-      nameItem: "&a升级插槽"
+      nameItem: "&a配件插槽"
       loreItem: |-
-        &7把升级道具放置在这里
-        &7可以升级小人
+        &7配件包括：压缩器和自动熔融器
+        &7压缩器用于把多个物品压缩成一个
+        &7自动熔融器能把矿物进行烧制
+        &7并不是所有小人都能安装这种配件
     collect:
       nameItem: "&a获取所有"
       loreItem: |-

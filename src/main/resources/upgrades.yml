@@ -10,14 +10,14 @@ upgrades:
         meta:
           ==: ItemMeta
           meta-type: TILE_ENTITY
-          display-name: §6Auto Sell
+          display-name: §6自动出售装置
           lore:
-            - §7This is a default
-            - §7lore to AutoSell.
+            - §7小人的附加配件
+            - §7能自动出售小人生产的资源
             - §7
-            - '§bPercent: §a25.0%'
+            - '§b自动出售背包中: §a25.0%的资源'
             - §7
-            - §ePut in minion!
+            - §e请安装在小人身上!
           blockMaterial: HOPPER
       craft:
         permission: none
