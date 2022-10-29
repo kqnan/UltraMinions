@@ -1,6 +1,6 @@
-enabled: "&aEnabled"
-disabled: "&cDisabled"
-FARMER: "Farmer"
+enabled: "&a已启动"
+disabled: "&c已关闭"
+FARMER: "农夫"
 FISHER: "Fisher"
 LUMBERJACK: "Lumberjack"
 MINER: "Miner"
@@ -644,46 +644,37 @@ menus:
         &7Time Between Actions: &8<timeNow> <arrow> &a<timeNext>
         &7Max Storage: &8<slotsNow> <arrow> &e<slotsNext>
     skin:
-      nameItem: "&aMinion Skin Slot"
+      nameItem: "&a皮肤插槽"
       loreItem: |-
-        &7You can insert a Minion Skin
-        &7here to change the appearance of
-        &7your minion.
+        &7把皮肤道具放在这里
+        &7可以改变小人的头颅皮肤
     fuel:
-      nameItem: "&aFuel"
+      nameItem: "&a燃料"
       loreItem: |-
-        &7Increase the speed of your
-        &7minion by adding minion fuel
-        &7items here.
+        &7燃料可以提高小人的工作速度
+        &7请把燃料放置在这里
         &7
-        &cNote: &7You can not take
-        &7fuel back out after you
-        &7place it here!
+        &c注意: &7放置后将不可取回
     shipping:
-      nameItem: "&aAutomated Shipping"
+      nameItem: "&a自动出售装置"
       loreItem: |-
-        &7Add a &bBudget Hopper&7,
-        &bEnchanted Hopper &7or a
-        &bPerfect Hopper &7here to make
-        &7your minion automatically sell
-        &7generated items after its
-        &7inventory is full.
+        &7在这里放置自动出售装置
+        &7当小人物品栏满时自动出售物品
     update:
-      nameItem: "&aUpgrate Slot"
+      nameItem: "&a升级插槽"
       loreItem: |-
-        &7You can improve your minion by
-        &7adding a minion upgrate item
-        &7here.
+        &7把升级道具放置在这里
+        &7可以升级小人
     collect:
-      nameItem: "&aCollect All"
+      nameItem: "&a获取所有"
       loreItem: |-
-        &eClick to collect all items!
+        &e点击获取小人的所有物品!
     pickup:
-      nameItem: "&aPickup Minion"
+      nameItem: "&a拾起小人"
       loreItem: |-
-        &eClick to pickup!
+        &e点击拾取!
   setup:
-    title: "&aMain Minions Config"
+    title: "&a主配置"
     fuelCraft:
       title: "&aCraft Setup Fuel"
       permission:
