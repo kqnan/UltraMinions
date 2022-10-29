@@ -7,7 +7,7 @@ import io.github.Leonardo0013YT.UltraMinions.database.PlayerMinion;
 import io.github.Leonardo0013YT.UltraMinions.database.minion.PlayerMinionStat;
 import io.github.Leonardo0013YT.UltraMinions.minions.Minion;
 import io.github.Leonardo0013YT.UltraMinions.utils.ItemBuilder;
-import io.github.Leonardo0013YT.UltraMinions.utils.MinionUtils_1_19_R1;
+import io.github.Leonardo0013YT.UltraMinions.utils.MinionUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -61,7 +61,7 @@ public class MinionLumberjack extends Minion {
                 if (de != null) {
                     if (!plugin.getAdm().isStackable(de)) {
                         destroyTree(de);
-                        MinionUtils_1_19_R1.damageBlock(de.getBlock().getLocation(), -1);
+                        MinionUtils.damageBlock(de.getBlock().getLocation(), -1);
                     }
                     action.done(true);
                 }

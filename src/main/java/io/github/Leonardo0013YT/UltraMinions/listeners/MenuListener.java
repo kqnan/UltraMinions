@@ -75,6 +75,7 @@ public class MenuListener implements Listener {
             if (key == null) return;
             ShopItem si = plugin.getShm().getShop().get(key);
             if (si == null) return;
+
             if (plugin.getAdm().getCoins(p) >= si.getPrice()) {
                 plugin.getAdm().removeCoins(p, si.getPrice());
                 MinionLevel ml = si.getMinion().getMinionLevelByLevel(1);

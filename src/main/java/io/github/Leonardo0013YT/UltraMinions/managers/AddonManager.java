@@ -518,6 +518,7 @@ public class AddonManager {
     }
 
     public double getCoins(Player p) {
+
         if (plugin.getCfm().isVault()) {
             return vault.getCoins(p);
         } else if (plugin.getCfm().isPlayerpoints()) {

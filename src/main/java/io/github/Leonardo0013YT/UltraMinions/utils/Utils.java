@@ -40,7 +40,7 @@ public class Utils {
     }
 
     public static void damageBlock(Location l, int damage) {
-        MinionUtils_1_19_R1.damageBlock(l, damage);
+        MinionUtils.damageBlock(l, damage);
     }
 
     public static void addMinionUUID(UUID uuid) {

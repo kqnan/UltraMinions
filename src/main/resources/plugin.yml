@@ -6,6 +6,7 @@ name: UltraMinions
 load: POSTWORLD
 depend:
   - NBTAPI
+  - ProtocolLib
 softdepend:
   - UltimateClaims
   - SuperiorSkyblock2

@@ -1,7 +1,7 @@
 package io.github.Leonardo0013YT.UltraMinions.minions.animations;
 
 import io.github.Leonardo0013YT.UltraMinions.interfaces.BlockAnimation;
-import io.github.Leonardo0013YT.UltraMinions.utils.MinionUtils_1_19_R1;
+import io.github.Leonardo0013YT.UltraMinions.utils.MinionUtils;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 
@@ -25,7 +25,7 @@ public class BlockBreakAnimation implements BlockAnimation {
             return;
         }
         if (block != null && !block.getType().equals(Material.AIR)) {
-            MinionUtils_1_19_R1.damageBlock(block.getLocation(), damage);
+            MinionUtils.damageBlock(block.getLocation(), damage);
         }
         damage++;
     }

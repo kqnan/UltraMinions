@@ -7,7 +7,7 @@ import io.github.Leonardo0013YT.UltraMinions.calls.CallBackAPI;
 import io.github.Leonardo0013YT.UltraMinions.database.PlayerMinion;
 import io.github.Leonardo0013YT.UltraMinions.database.minion.PlayerMinionStat;
 import io.github.Leonardo0013YT.UltraMinions.minions.Minion;
-import io.github.Leonardo0013YT.UltraMinions.utils.MinionUtils_1_19_R1;
+import io.github.Leonardo0013YT.UltraMinions.utils.MinionUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -48,7 +48,7 @@ public class MinionMiner extends Minion {
             Location lo = pm.getSelected("BREAK");
             if (lo != null) {
                 if (!plugin.getAdm().isStackable(lo)) {
-                    MinionUtils_1_19_R1.damageBlock(lo, -1);
+                    MinionUtils.damageBlock(lo, -1);
                     armor.setItemInHand(place);
                     lo.getBlock().setType(Material.AIR);
                     Bukkit.getServer().getPluginManager().callEvent(new MinionBreakEvent(pm, lo.getBlock()));
