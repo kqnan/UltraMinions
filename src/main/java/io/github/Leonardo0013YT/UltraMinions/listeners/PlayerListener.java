@@ -66,7 +66,8 @@ public class PlayerListener implements Listener {
         if (!plugin.getCfm().isSecureStop()) return;
         if (plugin.isStop()) return;
         String cmd = e.getMessage().substring(1).split(" ", 2)[0].toLowerCase();
-        if ((cmd.equals("minecraft:stop") || cmd.equals("bukkit:stop") || cmd.equals("stop"))) {
+        if ((cmd.equals("minecraft:stop") || cmd.equals("bukkit:stop") || cmd.equals("stop"))||cmd.equals("restart")||cmd.equals("bukkit:restart")||cmd.equals("minecraft:restart")) {
+            e.getPlayer().sendMessage("[UltraMinions]本插件已阻止玩家stop和restart命令，请在控制台输入");
             e.setCancelled(true);
         }
     }
@@ -76,7 +77,7 @@ public class PlayerListener implements Listener {
         if (!plugin.getCfm().isSecureStop()) return;
         if (plugin.isStop()) return;
         String cmd = e.getCommand().split(" ", 2)[0].toLowerCase();
-        if (cmd.equals("minecraft:stop") || cmd.equals("bukkit:stop") || cmd.equals("stop")) {
+        if (cmd.equals("minecraft:stop") || cmd.equals("bukkit:stop") || cmd.equals("stop")||cmd.equals("restart")||cmd.equals("bukkit:restart")||cmd.equals("minecraft:restart")) {
             e.setCancelled(true);
             shutdown();
         }
@@ -84,6 +85,7 @@ public class PlayerListener implements Listener {
 
     public void shutdown() {
         plugin.setStop(true);
+
         int amount = Bukkit.getOnlinePlayers().size();
         ArrayList<PlayerData> uuids = new ArrayList<>(PlayerData.getPlayers().values());
         for (PlayerData pd : uuids) {
