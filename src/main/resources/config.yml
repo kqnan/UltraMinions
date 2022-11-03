@@ -11,7 +11,7 @@ hologramsSystem: true
 socialHolograms: true
 adminBypass: false
 optimizeOnUnloadChunk: true
-secureStop: true
+secureStop: false  #true为关闭，false为开始。是否在onDisabled中保存数据
 rangeCheck:
   x: 2.0
   y: 2.0
@@ -28,8 +28,8 @@ unlockingTiers: false
 offlineWorking: true
 nbtTagsCrafting: false
 autoSave:
-  enabled: true
-  minutes: 5
+  enabled: false #false为开启，true为关闭
+  minutes: 1
 stats:
   food: true
   health: true

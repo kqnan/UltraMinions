@@ -127,7 +127,7 @@ public class Main extends JavaPlugin {
                 new HashSet<>(PlayerData.getPlayers().values()).forEach(pd -> pd.getMinions().values().forEach(PlayerMinion::update));
             }
         }.runTaskTimer(this, 20, 20);
-        if (!getCfm().isAutoSaveEnabled()) {
+        if (getCfm().isAutoSaveEnabled()) {
             new BukkitRunnable() {
                 @Override
                 public void run() {

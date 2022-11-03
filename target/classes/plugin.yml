@@ -4,6 +4,7 @@ version: 5.7.1
 api-version: "1.17"
 name: UltraMinions
 load: POSTWORLD
+
 depend:
   - NBTAPI
   - ProtocolLib

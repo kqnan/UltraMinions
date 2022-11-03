@@ -41,6 +41,7 @@ public class Database {
     public Database(Main plugin) {
         this.plugin = plugin;
         enabled = plugin.getConfig().getBoolean("mysql.enabled");
+
         if (enabled) {
             int port = plugin.getConfig().getInt("mysql.port");
             String ip = plugin.getConfig().getString("mysql.host");
@@ -92,6 +93,7 @@ public class Database {
                 Class.forName("org.sqlite.JDBC");
                 try {
                     connection = DriverManager.getConnection("jdbc:sqlite:" + DataFile);
+
                     plugin.sendLogMessage("§eSQLLite connected correctly.");
                     createTable();
                 } catch (SQLException ex2) {
@@ -159,6 +161,7 @@ public class Database {
                 }
                 String SELECT = "SELECT * FROM UltraMinions WHERE UUID=?";
                 if (enabled) {
+
                     try {
                         Connection connection = hikari.getConnection();
                         String INSERT = "INSERT INTO UltraMinions VALUES(?,?,?) ON DUPLICATE KEY UPDATE Name=?";
@@ -281,6 +284,8 @@ public class Database {
             @Override
             public void run() {
                 for (Player p : Bukkit.getOnlinePlayers()) {
+                   // plugin.sendLogMessage("自动保存玩家:"+p.getUniqueId()+"的数据");
+
                     PlayerData pd = PlayerData.getPlayerData(p);
                     if (pd == null) return;
                     DataSave ps = playerDataToDataSave(pd, true, true);
@@ -290,25 +295,28 @@ public class Database {
                             Connection connection = hikari.getConnection();
                             PreparedStatement statement = connection.prepareStatement(SAVE);
                             statement.setString(1, Main.toDataString(ps));
-                            statement.setString(2, p.toString());
+                            statement.setString(2, p.getUniqueId().toString());
                             statement.execute();
                             close(connection, statement, null);
                         } catch (SQLException e) {
                             e.printStackTrace();
                         }
                     } else {
+                      //  plugin.sendLogMessage("使用sqllite");
                         try {
                             Connection connection = getConnection();
                             PreparedStatement statement = connection.prepareStatement(SAVE);
                             statement.setString(1, Main.toDataString(ps));
-                            statement.setString(2, p.toString());
+                            statement.setString(2, p.getUniqueId().toString());
                             statement.execute();
+                           // System.out.println(Main.toDataString(ps)+"     "+p.toString());
                             close(connection, statement, null);
                         } catch (SQLException e) {
                             e.printStackTrace();
                         }
                     }
                 }
+
             }
         }.runTaskAsynchronously(plugin);
         plugin.sendLogMessage("Minions have been saved automatically.");
@@ -322,6 +330,7 @@ public class Database {
                 e.printStackTrace();
             }
         }
+
         if (statement != null) {
             try {
                 statement.close();
