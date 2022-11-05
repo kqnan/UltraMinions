@@ -44,8 +44,11 @@ public final class NBTEditor {
 
         SkullMeta headMeta = (SkullMeta) head.getItemMeta();
         GameProfile profile = new GameProfile(UUID.randomUUID(), null);
-        byte[] encodedData = Base64.getEncoder().encode(String.format("{textures:{SKIN:{url:\"%s\"}}}", url).getBytes());
-        profile.getProperties().put("textures", new Property("textures", new String(encodedData)));
+
+
+        String textur=url;
+        System.out.println(textur);
+        profile.getProperties().put("textures", new Property("textures",textur));
         Field profileField = null;
         try {
             assert headMeta != null;
