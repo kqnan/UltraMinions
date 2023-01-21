@@ -14,4 +14,4 @@ spigot原帖地址https://www.spigotmc.org/resources/ultra-minions-0-lag-custom-
 NBTAPI和
 Protocollib进行发包
 因此本插件理论支持所有版本
-
+ 
